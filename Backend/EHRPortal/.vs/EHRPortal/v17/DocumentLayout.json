@@ -3,24 +3,108 @@
   "WorkspaceRootPath": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE7FCEEE-6359-4190-A6B9-15908DF2180E}|Domain\\Domain.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\domain\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE7FCEEE-6359-4190-A6B9-15908DF2180E}|Domain\\Domain.csproj|solutionrelative:domain\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\app.core\\dto\\practitionerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dto\\practitionerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE7FCEEE-6359-4190-A6B9-15908DF2180E}|Domain\\Domain.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\domain\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE7FCEEE-6359-4190-A6B9-15908DF2180E}|Domain\\Domain.csproj|solutionrelative:domain\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\app.core\\apps\\user\\command\\addpractitionercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\user\\command\\addpractitionercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3711D34C-68E6-471D-BE4B-BE115F5BF007}|Infraastructure\\Infraastructure.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\infraastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3711D34C-68E6-471D-BE4B-BE115F5BF007}|Infraastructure\\Infraastructure.csproj|solutionrelative:infraastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\app.core\\apps\\user\\command\\addpatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\user\\command\\addpatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\app.core\\dto\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dto\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\app.core\\apps\\usertype\\command\\addusertypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\usertype\\command\\addusertypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB699BE2-FCBE-4F95-A068-24DCBD50B923}|EHRPortal\\EHRPortal.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\ehrportal\\controllers\\specialisationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB699BE2-FCBE-4F95-A068-24DCBD50B923}|EHRPortal\\EHRPortal.csproj|solutionrelative:ehrportal\\controllers\\specialisationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB699BE2-FCBE-4F95-A068-24DCBD50B923}|EHRPortal\\EHRPortal.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\ehrportal\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB699BE2-FCBE-4F95-A068-24DCBD50B923}|EHRPortal\\EHRPortal.csproj|solutionrelative:ehrportal\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE7FCEEE-6359-4190-A6B9-15908DF2180E}|Domain\\Domain.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\domain\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE7FCEEE-6359-4190-A6B9-15908DF2180E}|Domain\\Domain.csproj|solutionrelative:domain\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\app.core\\apps\\specialisation\\command\\addspecialisationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\specialisation\\command\\addspecialisationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB699BE2-FCBE-4F95-A068-24DCBD50B923}|EHRPortal\\EHRPortal.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\ehrportal\\controllers\\usertypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB699BE2-FCBE-4F95-A068-24DCBD50B923}|EHRPortal\\EHRPortal.csproj|solutionrelative:ehrportal\\controllers\\usertypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB699BE2-FCBE-4F95-A068-24DCBD50B923}|EHRPortal\\EHRPortal.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\ehrportal\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB699BE2-FCBE-4F95-A068-24DCBD50B923}|EHRPortal\\EHRPortal.csproj|solutionrelative:ehrportal\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\app.core\\dto\\usertypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dto\\usertypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB699BE2-FCBE-4F95-A068-24DCBD50B923}|EHRPortal\\EHRPortal.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\ehrportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CB699BE2-FCBE-4F95-A068-24DCBD50B923}|EHRPortal\\EHRPortal.csproj|solutionrelative:ehrportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB699BE2-FCBE-4F95-A068-24DCBD50B923}|EHRPortal\\EHRPortal.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\ehrportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB699BE2-FCBE-4F95-A068-24DCBD50B923}|EHRPortal\\EHRPortal.csproj|solutionrelative:ehrportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\app.core\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|solutionrelative:app.core\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\app.core\\app.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|solutionrelative:app.core\\app.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\app.core\\interface\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|solutionrelative:app.core\\interface\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\app.core\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|solutionrelative:app.core\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3711D34C-68E6-471D-BE4B-BE115F5BF007}|Infraastructure\\Infraastructure.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\infraastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3711D34C-68E6-471D-BE4B-BE115F5BF007}|Infraastructure\\Infraastructure.csproj|solutionrelative:infraastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\app.core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|solutionrelative:app.core\\interface\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE7FCEEE-6359-4190-A6B9-15908DF2180E}|Domain\\Domain.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\domain\\responsemodel\\jsonmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE7FCEEE-6359-4190-A6B9-15908DF2180E}|Domain\\Domain.csproj|solutionrelative:domain\\responsemodel\\jsonmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE7FCEEE-6359-4190-A6B9-15908DF2180E}|Domain\\Domain.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\domain\\responsemodel\\userresponemodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE7FCEEE-6359-4190-A6B9-15908DF2180E}|Domain\\Domain.csproj|solutionrelative:domain\\responsemodel\\userresponemodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE7FCEEE-6359-4190-A6B9-15908DF2180E}|Domain\\Domain.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE7FCEEE-6359-4190-A6B9-15908DF2180E}|Domain\\Domain.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\app.core\\dto\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dto\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|c:\\users\\dushyantbhambore\\desktop\\ehrportal\\backend\\ehrportal\\app.core\\apps\\specialisation\\query\\getallspecialisationquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\specialisation\\query\\getallspecialisationquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,79 +114,344 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 18,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "State.cs",
-              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Domain\\State.cs",
-              "RelativeDocumentMoniker": "Domain\\State.cs",
-              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Domain\\State.cs",
-              "RelativeToolTip": "Domain\\State.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:30:20.059Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Country.cs",
-              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Domain\\Country.cs",
-              "RelativeDocumentMoniker": "Domain\\Country.cs",
-              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Domain\\Country.cs",
-              "RelativeToolTip": "Domain\\Country.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Title": "AddPractitionerCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Apps\\User\\Command\\AddPractitionerCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\User\\Command\\AddPractitionerCommand.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Apps\\User\\Command\\AddPractitionerCommand.cs",
+              "RelativeToolTip": "App.Core\\Apps\\User\\Command\\AddPractitionerCommand.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:30:06.776Z",
+              "WhenOpened": "2024-12-12T12:45:09.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Infraastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "Infraastructure\\Class1.cs",
-              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Infraastructure\\Class1.cs",
-              "RelativeToolTip": "Infraastructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "SpecialisationController.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\Controllers\\SpecialisationController.cs",
+              "RelativeDocumentMoniker": "EHRPortal\\Controllers\\SpecialisationController.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\Controllers\\SpecialisationController.cs",
+              "RelativeToolTip": "EHRPortal\\Controllers\\SpecialisationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:24:31.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Domain\\User.cs",
-              "RelativeDocumentMoniker": "Domain\\User.cs",
-              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Domain\\User.cs",
-              "RelativeToolTip": "Domain\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:24:00.212Z",
+              "WhenOpened": "2024-12-12T12:30:06.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "AddUserTypeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Apps\\UserType\\Command\\AddUserTypeCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\UserType\\Command\\AddUserTypeCommand.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Apps\\UserType\\Command\\AddUserTypeCommand.cs",
+              "RelativeToolTip": "App.Core\\Apps\\UserType\\Command\\AddUserTypeCommand.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:24:52.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\Controllers\\UserTypeController.cs",
+              "RelativeDocumentMoniker": "EHRPortal\\Controllers\\UserTypeController.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\Controllers\\UserTypeController.cs",
+              "RelativeToolTip": "EHRPortal\\Controllers\\UserTypeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:23:43.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CountryController.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\Controllers\\CountryController.cs",
+              "RelativeDocumentMoniker": "EHRPortal\\Controllers\\CountryController.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\Controllers\\CountryController.cs",
+              "RelativeToolTip": "EHRPortal\\Controllers\\CountryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:23:10.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StateController.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\Controllers\\StateController.cs",
+              "RelativeDocumentMoniker": "EHRPortal\\Controllers\\StateController.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\Controllers\\StateController.cs",
+              "RelativeToolTip": "EHRPortal\\Controllers\\StateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:22:21.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddPatientCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Apps\\User\\Command\\AddPatientCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\User\\Command\\AddPatientCommand.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Apps\\User\\Command\\AddPatientCommand.cs",
+              "RelativeToolTip": "App.Core\\Apps\\User\\Command\\AddPatientCommand.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAswGQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:21:23.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\Program.cs",
+              "RelativeDocumentMoniker": "EHRPortal\\Program.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\Program.cs",
+              "RelativeToolTip": "EHRPortal\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:17:50.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\appsettings.json",
+              "RelativeDocumentMoniker": "EHRPortal\\appsettings.json",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\appsettings.json",
+              "RelativeToolTip": "EHRPortal\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-12T12:05:33.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IFileService.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Interface\\IFileService.cs",
+              "RelativeDocumentMoniker": "App.Core\\Interface\\IFileService.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Interface\\IFileService.cs",
+              "RelativeToolTip": "App.Core\\Interface\\IFileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:04:40.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\FileService.cs",
+              "RelativeDocumentMoniker": "App.Core\\FileService.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\FileService.cs",
+              "RelativeToolTip": "App.Core\\FileService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:03:29.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.Core",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\App.Core.csproj",
+              "RelativeDocumentMoniker": "App.Core\\App.Core.csproj",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\App.Core.csproj",
+              "RelativeToolTip": "App.Core\\App.Core.csproj",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-12T12:02:27.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\EmailService.cs",
+              "RelativeDocumentMoniker": "App.Core\\EmailService.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\EmailService.cs",
+              "RelativeToolTip": "App.Core\\EmailService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAcwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:02:42.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Infraastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infraastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Infraastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infraastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:01:15.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "App.Core\\DependencyInjection.cs",
               "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\DependencyInjection.cs",
               "RelativeToolTip": "App.Core\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:00:56.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Interface\\IAppDbContext.cs",
+              "RelativeDocumentMoniker": "App.Core\\Interface\\IAppDbContext.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Interface\\IAppDbContext.cs",
+              "RelativeToolTip": "App.Core\\Interface\\IAppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:22:35.392Z",
+              "WhenOpened": "2024-12-12T12:00:52.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "JSonModel.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Domain\\ResponseModel\\JSonModel.cs",
+              "RelativeDocumentMoniker": "Domain\\ResponseModel\\JSonModel.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Domain\\ResponseModel\\JSonModel.cs",
+              "RelativeToolTip": "Domain\\ResponseModel\\JSonModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:57:47.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserResponeModal.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Domain\\ResponseModel\\UserResponeModal.cs",
+              "RelativeDocumentMoniker": "Domain\\ResponseModel\\UserResponeModal.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Domain\\ResponseModel\\UserResponeModal.cs",
+              "RelativeToolTip": "Domain\\ResponseModel\\UserResponeModal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:57:39.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PractitionerDto.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Dto\\PractitionerDto.cs",
+              "RelativeDocumentMoniker": "App.Core\\Dto\\PractitionerDto.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Dto\\PractitionerDto.cs",
+              "RelativeToolTip": "App.Core\\Dto\\PractitionerDto.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvxwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:56:22.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientDto.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Dto\\PatientDto.cs",
+              "RelativeDocumentMoniker": "App.Core\\Dto\\PatientDto.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Dto\\PatientDto.cs",
+              "RelativeToolTip": "App.Core\\Dto\\PatientDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:55:34.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserType.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Domain\\UserType.cs",
+              "RelativeDocumentMoniker": "Domain\\UserType.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Domain\\UserType.cs",
+              "RelativeToolTip": "Domain\\UserType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:53:39.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "VerifyOtpDto.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Dto\\VerifyOtpDto.cs",
+              "RelativeDocumentMoniker": "App.Core\\Dto\\VerifyOtpDto.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Dto\\VerifyOtpDto.cs",
+              "RelativeToolTip": "App.Core\\Dto\\VerifyOtpDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:53:35.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserTypeDto.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Dto\\UserTypeDto.cs",
+              "RelativeDocumentMoniker": "App.Core\\Dto\\UserTypeDto.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Dto\\UserTypeDto.cs",
+              "RelativeToolTip": "App.Core\\Dto\\UserTypeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:52:59.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddSpecialisationCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Apps\\Specialisation\\Command\\AddSpecialisationCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Specialisation\\Command\\AddSpecialisationCommand.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Apps\\Specialisation\\Command\\AddSpecialisationCommand.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Specialisation\\Command\\AddSpecialisationCommand.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:51:50.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetAllSpecialisationQuery.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Apps\\Specialisation\\Query\\GetAllSpecialisationQuery.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Specialisation\\Query\\GetAllSpecialisationQuery.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Apps\\Specialisation\\Query\\GetAllSpecialisationQuery.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Specialisation\\Query\\GetAllSpecialisationQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:52:03.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\User.cs",
+              "ToolTip": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Domain\\User.cs",
+              "RelativeToolTip": "Domain\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:48:20.698Z",
               "EditorCaption": ""
             }
           ]
