@@ -1,0 +1,16 @@
+D:\Sdfolder\SmartData\EHRApplication\EHRPortal\Backend\EHRPortal\App.Core\obj\Debug\net8.0\App.Core.csproj.AssemblyReference.cache
+D:\Sdfolder\SmartData\EHRApplication\EHRPortal\Backend\EHRPortal\App.Core\obj\Debug\net8.0\App.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sdfolder\SmartData\EHRApplication\EHRPortal\Backend\EHRPortal\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfoInputs.cache
+D:\Sdfolder\SmartData\EHRApplication\EHRPortal\Backend\EHRPortal\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfo.cs
+D:\Sdfolder\SmartData\EHRApplication\EHRPortal\Backend\EHRPortal\App.Core\obj\Debug\net8.0\App.Core.csproj.CoreCompileInputs.cache
+D:\Sdfolder\SmartData\EHRApplication\EHRPortal\Backend\EHRPortal\App.Core\obj\Debug\net8.0\App.Core.sourcelink.json
+D:\Sdfolder\SmartData\EHRApplication\EHRPortal\Backend\EHRPortal\App.Core\bin\Debug\net8.0\App.Core.deps.json
+D:\Sdfolder\SmartData\EHRApplication\EHRPortal\Backend\EHRPortal\App.Core\bin\Debug\net8.0\App.Core.dll
+D:\Sdfolder\SmartData\EHRApplication\EHRPortal\Backend\EHRPortal\App.Core\bin\Debug\net8.0\App.Core.pdb
+D:\Sdfolder\SmartData\EHRApplication\EHRPortal\Backend\EHRPortal\App.Core\bin\Debug\net8.0\Domain.dll
+D:\Sdfolder\SmartData\EHRApplication\EHRPortal\Backend\EHRPortal\App.Core\bin\Debug\net8.0\Domain.pdb
+D:\Sdfolder\SmartData\EHRApplication\EHRPortal\Backend\EHRPortal\App.Core\obj\Debug\net8.0\App.Core.csproj.Up2Date
+D:\Sdfolder\SmartData\EHRApplication\EHRPortal\Backend\EHRPortal\App.Core\obj\Debug\net8.0\App.Core.dll
+D:\Sdfolder\SmartData\EHRApplication\EHRPortal\Backend\EHRPortal\App.Core\obj\Debug\net8.0\refint\App.Core.dll
+D:\Sdfolder\SmartData\EHRApplication\EHRPortal\Backend\EHRPortal\App.Core\obj\Debug\net8.0\App.Core.pdb
+D:\Sdfolder\SmartData\EHRApplication\EHRPortal\Backend\EHRPortal\App.Core\obj\Debug\net8.0\ref\App.Core.dll

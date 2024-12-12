@@ -16,7 +16,7 @@ namespace Domain
         public string BloogGroup { get; set; }
         public string Gender { get; set; }
         public int   UserTypeId { get; set; }
-        public string ImageFile { get; set; }
+        public string ImageFile { get; set; } 
         public string Address { get; set; }
         public int PinCode { get; set; }
         public int StateId { get; set; }

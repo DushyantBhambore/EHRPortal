@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "1kL/+aTEXxFE97WlPkgCP4ivlNHhqESsI3NoCD8S7q8=",
+  "Source": "EHRPortal",
+  "BasePath": "_content/EHRPortal",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

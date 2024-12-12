@@ -50,8 +50,8 @@ namespace App.Core.Apps.User.Command
 
 
             string formattedDOB = request.practitionerDto.DOB.ToString("ddMMyy");
-            string username = $"EC_{request.practitionerDto.LastName.
-                ToUpper()}{request.practitionerDto.FirstName.ToUpper()[0]}{formattedDOB}";
+            string username = $"PR_{request.practitionerDto.FirstName.
+                ToUpper()}{request.practitionerDto.LastName.ToUpper()[0]}{formattedDOB}";
 
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
             string password = new string(Enumerable.Repeat(chars, 8)
@@ -95,7 +95,7 @@ namespace App.Core.Apps.User.Command
                  $"{username}\nPassword: {password}\n\nRegards,\nTeam");
 
 
-            return new JSonModel((int)HttpStatusCode.OK, "User Added Successfully", user);
+            return new JSonModel((int)HttpStatusCode.OK, "Provider Added Successfully", user);
         }
     }
 }

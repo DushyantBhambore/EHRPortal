@@ -20,7 +20,7 @@ namespace App.Core.Dto
         public string BloogGroup { get; set; }
         public string Gender { get; set; }
         public int UserTypeId { get; set; }
-        public IFormFile? ImageFile { get; set; }
+        public IFormFile? ImageFile { get; set; } = null;
         public string Address { get; set; }
         public int PinCode { get; set; }
         public int StateId { get; set; }

@@ -1,4 +1,5 @@
 ﻿using App.Core.Apps.Specialisation.Command;
+using App.Core.Apps.Specialisation.Query;
 using App.Core.Dto;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -21,6 +22,13 @@ namespace EHRPortal.Controllers
         public async Task<IActionResult> AddSpecialisation(SpecialisationDto specialisationDto)
         {
             var result = await _mediator.Send(new AddSpecialisationCommand { SpecialisationDto = specialisationDto });
+            return Ok(result);
+        }
+
+        [HttpGet("GetAllSpecialisation")]
+        public async Task<IActionResult> GetAllSpecialisation()
+        {
+            var result = await _mediator.Send(new GetAllSpecialisationQuery());
             return Ok(result);
         }
     }

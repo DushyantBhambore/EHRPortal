@@ -32,7 +32,7 @@ namespace App.Core.Apps.Specialisation.Command
             var checkname = await _appDbContext.Set<Domain.Specialisation>().
                 FirstOrDefaultAsync(a => a.SpecialisationName == request.SpecialisationDto.SpecialisationName);
 
-            if (checkname == null)
+            if (checkname != null)
             {
                 return new JSonModel((int)HttpStatusCode.BadRequest, "Name already exists", null);
             }

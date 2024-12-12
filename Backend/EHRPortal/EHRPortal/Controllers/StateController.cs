@@ -29,8 +29,8 @@ namespace EHRPortal.Controllers
             var result = await _mediator.Send(new GetAllStateQuery());
             return Ok(result);
         }
-        [HttpGet("GetStateById")]
-        public async Task<IActionResult> GetStateById([FromQuery] int id)
+        [HttpGet("[action]/{id}")]
+        public async Task<IActionResult> GetStateById( int id)
         {
             var result = await _mediator.Send(new GetStateByIdQuery { id = id });
             return Ok(result);

@@ -51,8 +51,8 @@ namespace App.Core.Apps.User.Command
 
 
             string formattedDOB = request.patientDto.DOB.ToString("ddMMyy");
-            string username = $"EC_{request.patientDto.LastName.
-                ToUpper()}{request.patientDto.FirstName.ToUpper()[0]}{formattedDOB}";
+            string username = $"PT_{request.patientDto.FirstName.
+                ToUpper()}{request.patientDto.LastName.ToUpper()[0]}{formattedDOB}";
 
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
             string password = new string(Enumerable.Repeat(chars, 8)
@@ -87,7 +87,6 @@ namespace App.Core.Apps.User.Command
                 Qualification= null,
 
             };
-
             await _appDbContext.Set<Domain.User>().AddAsync(user);
             await _appDbContext.SaveChangesAsync();
 
@@ -97,7 +96,7 @@ namespace App.Core.Apps.User.Command
                  $"{username}\nPassword: {password}\n\nRegards,\nTeam");
 
 
-            return new JSonModel((int)HttpStatusCode.OK, "User Added Successfully", user);
+            return new JSonModel((int)HttpStatusCode.OK, "Patient  Added Successfully", user);
         }
     }
 }
