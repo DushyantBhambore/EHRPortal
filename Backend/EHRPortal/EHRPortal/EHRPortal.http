@@ -1,0 +1,6 @@
+@EHRPortal_HostAddress = http://localhost:5141
+
+GET {{EHRPortal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
