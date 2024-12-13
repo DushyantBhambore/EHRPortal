@@ -426,6 +426,15 @@
           }
         }
       },
+      "PasswordGenerator/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PasswordGenerator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PasswordGenerator.dll": {}
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.1.2": {
         "type": "package",
         "dependencies": {
@@ -1134,6 +1143,18 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
+    "PasswordGenerator/2.1.0": {
+      "sha512": "G70cCeAOYCk/uTuFw5PBGpYY9kmBZyzld7tphachvyU514PowMRDYyKwTefxIHNGWrhXY2d1DV5B1tDEnTtY3A==",
+      "type": "package",
+      "path": "passwordgenerator/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/PasswordGenerator.dll",
+        "passwordgenerator.2.1.0.nupkg.sha512",
+        "passwordgenerator.nuspec"
+      ]
+    },
     "System.IdentityModel.Tokens.Jwt/7.1.2": {
       "sha512": "Thhbe1peAmtSBFaV/ohtykXiZSOkx59Da44hvtWfIMFofDA3M3LaVyjstACf2rKGn4dEDR2cUpRAZ0Xs/zB+7Q==",
       "type": "package",
@@ -1199,28 +1220,24 @@
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.11",
       "Microsoft.AspNetCore.Http.Features >= 5.0.17",
       "Microsoft.EntityFrameworkCore >= 8.0.11",
-      "Microsoft.Extensions.Configuration.Abstractions >= 8.0.0"
+      "Microsoft.Extensions.Configuration.Abstractions >= 8.0.0",
+      "PasswordGenerator >= 2.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\91997\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\dushyantbhambore\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\App.Core\\App.Core.csproj",
+      "projectUniqueName": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\App.Core.csproj",
       "projectName": "App.Core",
-      "projectPath": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\App.Core\\App.Core.csproj",
-      "packagesPath": "C:\\Users\\91997\\.nuget\\packages\\",
-      "outputPath": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\App.Core\\obj\\",
+      "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\App.Core.csproj",
+      "packagesPath": "C:\\Users\\dushyantbhambore\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\91997\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\dushyantbhambore\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1228,14 +1245,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\Domain\\Domain.csproj"
+            "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Domain\\Domain.csproj"
             }
           }
         }
@@ -1248,9 +1266,8 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -1287,6 +1304,10 @@
           "Microsoft.Extensions.Configuration.Abstractions": {
             "target": "Package",
             "version": "[8.0.0, )"
+          },
+          "PasswordGenerator": {
+            "target": "Package",
+            "version": "[2.1.0, )"
           }
         },
         "imports": [
@@ -1308,7 +1329,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

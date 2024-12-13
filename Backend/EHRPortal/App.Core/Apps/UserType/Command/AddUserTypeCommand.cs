@@ -38,7 +38,7 @@ namespace App.Core.Apps.UserType.Command
 
             var role = new Domain.UserType
             {
-                UserTypName = request.UserTypeDto.UserTypName,
+                UserTypeName = request.UserTypeDto.UserTypName,
               
             };
             await _appDbContext.Set<Domain.UserType>().AddAsync(role);

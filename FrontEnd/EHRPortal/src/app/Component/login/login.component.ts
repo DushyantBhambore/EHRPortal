@@ -28,7 +28,9 @@ import { MatIconModule } from '@angular/material/icon';
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
-
+  showLoginForm = false;
+  showPatientLoginForm = false;
+  showProviderLoginForm = false;
   isLoginSuccessful = false;
   loginform: FormGroup = new FormGroup({});
 verifytform: FormGroup = new FormGroup({});
@@ -116,6 +118,17 @@ setOtpForm() {
 //   });
 // }
 
+showLogin(type: string) {
+  this.showLoginForm = true;
+  if (type === 'patient') {
+    this.showPatientLoginForm = true;
+    this.showProviderLoginForm = false;
+  } else if (type === 'provider') {
+    this.showProviderLoginForm = true;
+    this.showPatientLoginForm = false;
+  }
+}
+
 
 onLogin() {
 
@@ -140,8 +153,9 @@ debugger
          positionClass: 'toast-top-right',
        });
        sessionStorage.setItem('loginuser', JSON.stringify(res.data));
-      
+       this.isLoginSuccessful = true;
        this.setOtpForm()
+
      }
      else{
        this.toastr.error('Wrong Creadentials Enter Coreect Credential', 'Error', {
@@ -164,26 +178,20 @@ debugger
 }
 
 onOTP() {
- this.toastr.info('Verifying OTP...', 'Please wait', {
-   timeOut: 2000,
-   progressBar: true,
-   progressAnimation: 'increasing',
-   positionClass: 'toast-top-right',
- });
-
+ 
  this.service.verifyotp(this.verifytform.value).subscribe({
    next: (res: any) => {
      localStorage.setItem('token', res.token);
      localStorage.setItem('profileimage', res.data.imageFile);
      sessionStorage.setItem('logindata', JSON.stringify(res.data));
      sessionStorage.setItem('role',JSON.stringify(res.data.roleId))
-     this.router.navigateByUrl('/profile');
      this.toastr.success('Login successful', 'Success', {
        timeOut: 3000,
        progressBar: true,
        progressAnimation: 'increasing',
        positionClass: 'toast-top-right'
      });
+     this.router.navigateByUrl('/patientappoinment');
    },
    error: (err) => {
      this.toastr.error('OTP verification failed', 'Error', {

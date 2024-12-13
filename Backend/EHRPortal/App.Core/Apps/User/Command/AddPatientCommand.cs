@@ -4,8 +4,10 @@ using Domain.ResponseModel;
 using MediatR;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
+using PasswordGenerator;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Net;
 using System.Reflection;
@@ -36,6 +38,7 @@ namespace App.Core.Apps.User.Command
         public async Task<JSonModel> Handle(AddPatientCommand request, CancellationToken cancellationToken)
         {
 
+            TextInfo textInfo = new CultureInfo("en-US", false).TextInfo;
             var checkemail = await _appDbContext.Set<Domain.User>().Where(x => x.Email ==
             request.patientDto.Email).FirstOrDefaultAsync();
 
@@ -51,12 +54,18 @@ namespace App.Core.Apps.User.Command
 
 
             string formattedDOB = request.patientDto.DOB.ToString("ddMMyy");
-            string username = $"PT_{request.patientDto.FirstName.
-                ToUpper()}{request.patientDto.LastName.ToUpper()[0]}{formattedDOB}";
+            string username = $"PT_{textInfo.ToTitleCase(request.patientDto.FirstName)
+    }{request.patientDto.LastName.ToUpper()[0]}{formattedDOB}";
 
-            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-            string password = new string(Enumerable.Repeat(chars, 8)
-                .Select(s => s[new Random().Next(s.Length)]).ToArray());
+            // Password Generator
+            var passwordGenerator = new Password(true, true, true, true, 13);
+            string password = passwordGenerator.Next();
+            password = password.Replace("\\", "");
+            password = $"{password}#";
+
+            //const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+            //string password = new string(Enumerable.Repeat(chars, 8)
+            //    .Select(s => s[new Random().Next(s.Length)]).ToArray());
             //string password =Password()
             //string encryptedPassword = Encrypt(password);
             var encryptedPassword = BCrypt.Net.BCrypt.HashPassword(password);
@@ -66,7 +75,7 @@ namespace App.Core.Apps.User.Command
                 FirstName = request.patientDto.FirstName,
                 LastName = request.patientDto.LastName,
                 Email = request.patientDto.Email,
-                UserTypeId = request.patientDto.UserTypeId,
+                UserTypeId = 2,
                 DOB = request.patientDto.DOB,
                 Mobile = request.patientDto.Mobile,
                 BloogGroup=request.patientDto.BloogGroup,

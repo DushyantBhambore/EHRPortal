@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\03e3669c-9235-42d2-a9c6-0b31677a8509.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\03e3669c-9235-42d2-a9c6-0b31677a8509.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\140024fa-8e81-4fc5-9378-db9d5ece0a94.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\140024fa-8e81-4fc5-9378-db9d5ece0a94.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\370d46e3-924a-4c0a-bcc2-64e131152067.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\370d46e3-924a-4c0a-bcc2-64e131152067.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\9536b6db-782b-40d7-9c10-e33e16bd4cd8.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\9536b6db-782b-40d7-9c10-e33e16bd4cd8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\be40d50f-05ea-429b-ac25-a7d60dd5e46f.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\be40d50f-05ea-429b-ac25-a7d60dd5e46f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\c5602ba1-de69-4719-a96d-ac79541943dc.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\c5602ba1-de69-4719-a96d-ac79541943dc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\e695d418-9a54-433b-8b85-a118a97eaa3b.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\e695d418-9a54-433b-8b85-a118a97eaa3b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\f25279c9-527f-4c91-8542-8f4a5472212e.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\f25279c9-527f-4c91-8542-8f4a5472212e.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EHRPortal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EHRPortal.props",
+      "PackagePath": "build\\EHRPortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EHRPortal.props",
+      "PackagePath": "buildMultiTargeting\\EHRPortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EHRPortal.props",
+      "PackagePath": "buildTransitive\\EHRPortal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

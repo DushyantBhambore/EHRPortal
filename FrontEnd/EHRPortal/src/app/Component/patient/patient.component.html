@@ -1,1 +1,165 @@
-<p>patient works!</p>
+<div class="container mt-5">
+    <div class="row align-items-center justify-content-center">
+        <mat-card class="example-card" centered-card>
+            <h1 class="text-center">Patient Form</h1>
+            <form  class="example-form" [formGroup]="patientform">
+
+           <div class="row">
+            <div class="col-4">
+                <mat-form-field appearance="outline">
+                    <mat-label>First Name</mat-label>
+                    <input  matInput [maxlength]="15"  formControlName="firstName" placeholder="First Name">
+                    <mat-error *ngIf="patientform.controls['firstName'].errors?.['required']">
+                        firstName is required
+                        </mat-error>
+                  </mat-form-field>
+
+            </div>
+           
+            <div class="col-4">
+                <mat-form-field appearance="outline">
+                    <mat-label>Last Name</mat-label>
+                    <input  matInput [maxlength]="15" formControlName="lastName" placeholder="lastName">
+                    <mat-error *ngIf="patientform.controls['lastName'].errors?.['required']">
+                        lastName is required
+                        </mat-error>
+                  </mat-form-field>
+            </div>
+
+            <div class="col-4">
+                <mat-form-field appearance="outline">
+                    <mat-label>Email </mat-label>
+                    <input matInput type="email" id="inputEmail" formControlName="email">
+                    <mat-error *ngIf="patientform.controls['email'].errors?.['required']">
+                    Email is required
+                    </mat-error>
+                    <mat-error *ngIf="patientform.controls['email'].errors?.['email']">
+                      Please enter a valid email address
+                    </mat-error>
+                  </mat-form-field>
+            </div>
+            
+           </div>
+
+           <div class="row">
+            <div class="col-4">
+                <mat-form-field appearance="outline">
+                    <input matInput [matDatepicker]="dobdatepicker" 
+                      placeholder="Date Of Birth" formControlName="dob" readonly [max]="selectedDate"  />
+                    <mat-datepicker-toggle matSuffix [for]="dobdatepicker"></mat-datepicker-toggle>
+                    <mat-datepicker #dobdatepicker hidden></mat-datepicker>
+                    <mat-error *ngIf="patientform.controls['dob'].errors?.['required']">
+                      Date Of Birth is required
+                    </mat-error>
+                  </mat-form-field>
+                  
+            </div>
+            <div class="col-4">
+                <mat-form-field appearance="outline">
+                    <mat-label>Blood Group</mat-label>
+                    <input  matInput  formControlName="bloogGroup" placeholder="Placeholder">
+                    <mat-error *ngIf="patientform.controls['bloogGroup'].errors?.['required']">
+                        blood Group required
+                      </mat-error>
+                  </mat-form-field>
+            </div>
+            <div class="col-4">
+                <mat-form-field appearance="outline">
+                    <mat-label>Gender </mat-label>
+                    <input  matInput  formControlName="gender" placeholder="Placeholder">
+                    <mat-error *ngIf="patientform.controls['gender'].errors?.['required']">
+                      Gender is required
+                    </mat-error>
+                  </mat-form-field>
+            </div>
+           </div>
+
+           <div class="row">
+            <div class="col-4">
+                <mat-form-field appearance="outline" >
+                    <mat-label>Country</mat-label>
+                    <mat-select formControlName="countryId"  required>
+                      <mat-option *ngFor="let country of countries" [value]="country.countryId">{{ country.countryName }}</mat-option>
+                    </mat-select>
+                    <mat-error *ngIf="patientform.controls['countryId'].errors?.['required']">
+                      Country is required
+                    </mat-error>    
+                  </mat-form-field>
+            </div>
+            <div class="col-4">
+                <mat-form-field appearance="outline" >
+                    <mat-label>State</mat-label>
+                    <mat-select formControlName="stateId" matNativeControl required>
+                      <mat-option *ngFor="let state of states" [value]="state.stateId" > {{ state.stateName }}</mat-option>
+                
+                    </mat-select>
+                    <mat-error *ngIf="patientform.controls['stateId'].errors?.['required']">
+                      State is required
+                    </mat-error>
+                  </mat-form-field>
+            </div>
+            <div class="col-4">
+                <mat-form-field appearance="outline">
+                    <mat-label>City </mat-label>
+                    <input  matInput  formControlName="city" placeholder="Placeholder">
+                    <mat-error *ngIf="patientform.controls['city'].errors?.['required']">
+                      City is required  
+                    </mat-error>
+                  </mat-form-field>
+            </div>
+
+           </div>
+
+           <div class="row">
+            <div class="col-4">
+                <mat-form-field appearance="outline">
+                    <mat-label>Pincode</mat-label>
+                    <input  type="number"  matInput 
+                     formControlName="pinCode" placeholder="Placeholder" required>
+                    <mat-error *ngIf="patientform.controls['pinCode'].errors?.['required']">
+                      Pincode is required
+                    </mat-error>
+                  </mat-form-field>
+            </div>
+            <div class="col-4">
+                <mat-form-field appearance="outline">
+                    <mat-label>Address</mat-label>
+                    <input  matInput  formControlName="address" placeholder="Placeholder">
+                    <mat-error *ngIf="patientform.controls['address'].errors?.['required']">
+                      Address is required
+                    </mat-error>
+                  </mat-form-field>
+            </div>
+            <div class="col-4">
+                <mat-form-field appearance="outline">
+                    <mat-label>Phone Number</mat-label>
+                    <input   matInput  formControlName="mobile"  [maxlength]="10" type="text" (keypress)="numberOnly($event)"
+                    placeholder="Placeholder" required>
+                    <mat-error *ngIf="patientform.controls['mobile'].errors?.['required']">
+                      Phone Number is required
+                    </mat-error>
+                  </mat-form-field>
+            </div>
+
+           </div>
+           <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="imageFile" class="form-label">Profile Image:</label>
+              <input
+                id="imageFile"
+                type="file"
+                class="form-control"
+                formControlName="imageFile"
+                accept=".jpg, .jpeg, .png"
+                (change)="onFileChange($event)" 
+              />
+            
+            </div>
+          </div>
+          <div class="mb-4 example-button-row d-flex justify-content-center">
+            <button mat-raised-button extended color="primary" (click)="onSubmit()">Submit </button>
+          </div>
+            </form>
+        </mat-card>
+    </div>
+</div>

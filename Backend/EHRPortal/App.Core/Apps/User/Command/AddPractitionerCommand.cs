@@ -65,7 +65,7 @@ namespace App.Core.Apps.User.Command
                 FirstName = request.practitionerDto.FirstName,
                 LastName = request.practitionerDto.LastName,
                 Email = request.practitionerDto.Email,
-                UserTypeId = request.practitionerDto.UserTypeId,
+                UserTypeId = 1,
                 DOB = request.practitionerDto.DOB,
                 Mobile = request.practitionerDto.Mobile,
                 BloogGroup = request.practitionerDto.BloogGroup,

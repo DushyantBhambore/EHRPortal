@@ -48,7 +48,7 @@ namespace App.Core.Apps.User.Command
                 new Claim(JwtRegisteredClaimNames.Sub, _configuration["Jwt:Subject"]),
                 new Claim("UserId", userExist.UserId.ToString()),
                 new Claim("Email", userExist.Email),
-                new Claim(ClaimTypes.Role,selectrole.UserTypName)
+                new Claim(ClaimTypes.Role,selectrole.UserTypeName)
             };
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
             var signIn = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);

@@ -22,6 +22,42 @@ namespace Infraastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Domain.Appoinment", b =>
+                {
+                    b.Property<int>("AppoinemntId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AppoinemntId"));
+
+                    b.Property<DateTime>("AppinementTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("AppointmentDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("AppointmentStatus")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Chiefcomplaint")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Fee")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("SpecialisationId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("AppoinemntId");
+
+                    b.ToTable("Appoinment");
+                });
+
             modelBuilder.Entity("Domain.Country", b =>
                 {
                     b.Property<int>("CountryId")
@@ -191,14 +227,12 @@ namespace Infraastructure.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Qualification")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("RegistrationNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Specialisation")
+                    b.Property<int?>("Specialisation")
                         .HasColumnType("int");
 
                     b.Property<int>("StateId")
@@ -218,7 +252,7 @@ namespace Infraastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("VisitingCharge")
+                    b.Property<decimal?>("VisitingCharge")
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("UserId");
@@ -234,7 +268,7 @@ namespace Infraastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserTypeId"));
 
-                    b.Property<string>("UserTypName")
+                    b.Property<string>("UserTypeName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

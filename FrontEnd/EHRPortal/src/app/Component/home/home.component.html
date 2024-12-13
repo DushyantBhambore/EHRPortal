@@ -1,1 +1,29 @@
-<p>home works!</p>
+<div class="parent">
+    <div class="navbar-container">
+      <nav class="navbar">
+        <div class="logo-container">
+         <img  src="/assests/logo.png" alt="Logo" class="logo me-3" width="100" height="30" >
+          <!-- <h1 class="navbar-title">E-Commerce</h1> -->
+          <!-- <span class="welcome-text text-dark">Welcome {{name}}</span>  -->
+          <a routerLink="/patientappoinment" class="btn btn-primary me-3">Patient Appoinment</a>
+        </div>
+  
+        <div class="navbar-right">
+          <div class="profile-container"  style="display: flex; align-items: center;">
+            <a [matMenuTriggerFor]="menu">
+              <img  class="profile-circle" alt="Profile" (click)="toggleDropdown()">
+            </a>
+            <mat-menu #menu="matMenu">
+              <button mat-menu-item routerLink="/profile">Profile</button>
+              <button mat-menu-item routerLink="/changepassword">Change Password</button>
+              <button mat-menu-item (click)="onLogOut()">Log Off</button>
+            </mat-menu>
+          </div>  
+  
+         
+        </div>
+      </nav>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+  

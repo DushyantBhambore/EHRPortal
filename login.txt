@@ -1,0 +1,90 @@
+<div class="container">
+    <div class="row align-items-center justify-content-center">
+      <mat-card class="example-card" centered-card>
+          <div class="row align-items-center justify-content-center">
+            <mat-card class="example-card" centered-card >
+              <h2 class="text-center">Welcome</h2>
+              <div class="mb-4 example-button-row d-flex justify-content-center">
+                <button mat-raised-button color="primary" (click)="showLogin('patient')">Patient</button>
+                <button mat-raised-button color="primary" (click)="showLogin('provider')">Provider</button>
+              </div>
+              <div *ngIf="showLoginForm">
+                <div *ngIf="showPatientLoginForm">
+                  <h2 class="text-center">Patient Login</h2>
+                  <form class="example-form"  *ngIf="!isLoginSuccessful" [formGroup]="loginform">
+                    <mat-form-field appearance="outline" class="mb-4 example-full-width">
+                      <mat-label>Username</mat-label>
+                      <input type="text" matInput formControlName="username" placeholder="Ex. EC_ABC123" required>
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" class="mb-4 example-full-width" >
+                      <mat-label>Enter your password</mat-label>
+                      <input matInput formControlName="password" [type]="hide() ? 'password' : 'text'" required />
+                      <button
+                        mat-icon-button
+                        matSuffix
+                        (click)="clickEvent($event)"
+                        [attr.aria-label]="'Hide password'"
+                        [attr.aria-pressed]="hide()"
+                      >
+                        <mat-icon>{{hide() ? 'visibility_off' : 'visibility'}}</mat-icon>
+                      </button>
+                    </mat-form-field>
+                    <div class="mb-4 example-button-row d-flex justify-content-center">
+                      <button mat-raised-button color="primary" [disabled]="loginform.invalid" (click)="onLogin()">Login</button>
+                    </div>
+                    <div class="">
+                      <a color="primary" routerLink="/forgot-password">Forgot Password</a>
+                    </div>
+                    <div class="">
+                      <a color="primary" routerLink="/patient">Patient Register ?</a>
+                    </div>
+                  </form>
+                </div>
+                <div *ngIf="showProviderLoginForm">
+                  <h2 class="text-center">Provider Login</h2>
+                  <form class="example-form"  *ngIf="!isLoginSuccessful" [formGroup]="loginform">
+                    <mat-form-field appearance="outline" class="mb-4 example-full-width">
+                      <mat-label>Username</mat-label>
+                      <input type="text" matInput formControlName="username" placeholder="Ex. EC_ABC123" required>
+                    </mat-form-field>
+                    <mat-form-field appearance="outline" class="mb-4 example-full-width" >
+                      <mat-label>Enter your password</mat-label>
+                      <input matInput formControlName="password" [type]="hide() ? 'password' : 'text'" required />
+                      <button
+                        mat-icon-button
+                        matSuffix
+                        (click)="clickEvent($event)"
+                        [attr.aria-label]="'Hide password'"
+                        [attr.aria-pressed]="hide()"
+                      >
+                        <mat-icon>{{hide() ? 'visibility_off' : 'visibility'}}</mat-icon>
+                      </button>
+                    </mat-form-field>
+                    <div class="mb-4 example-button-row d-flex justify-content-center">
+                      <button mat-raised-button color="primary" [disabled]="loginform.invalid" (click)="onLogin()">Login</button>
+                    </div>
+                    <div class="">
+                      <a color="primary" routerLink="/forgot-password">Forgot Password</a>
+                    </div>
+                    <div class="">
+                      <a color="primary" routerLink="/provider">Provider Register ?</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </mat-card>
+          </div>
+        <form *ngIf="isLoginSuccessful" class="example-form" [formGroup]="verifytform">
+          <mat-form-field appearance="outline" class="mb-4 example-full-width">
+            <mat-label>OTP</mat-label>
+            <input type="text" matInput formControlName="otp" placeholder="Enter OTP" required>
+          </mat-form-field>
+          <div class="mb-4 example-button-row d-flex justify-content-center">
+            <button mat-raised-button color="primary" (click)="onOTP()">Submit OTP</button>
+          </div>
+        </form>
+           
+      </mat-card>
+    </div>
+  </div>
+  

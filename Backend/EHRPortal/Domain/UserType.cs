@@ -9,6 +9,6 @@ namespace Domain
     public class UserType
     {
         public int UserTypeId { get; set; }
-        public string UserTypName { get; set; }
+        public string UserTypeName { get; set; }
     }
 }

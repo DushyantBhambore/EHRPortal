@@ -32,10 +32,15 @@ export class LoginService {
   getstatebyidurl ='https://localhost:7161/api/State/GetStateById'
 
   getallspecialisationurl ='https://localhost:7161/api/Specialisation/GetAllSpecialisation'
+
+
+  getallusertypeurl ='https://localhost:7161/api/UserType/GetAllUserType'
   
 
 
   http = inject(HttpClient);
+  constructor() { }
+
 
   registerpatient(data :any){
     return this.http.post(this.registerpatienturl,data)
@@ -90,5 +95,9 @@ export class LoginService {
     return this.http.get(this.getallspecialisationurl)
   }
 
-  constructor() { }
+
+  getallusertype(){
+    return this.http.get(this.getallusertypeurl)
+  }
+
 }

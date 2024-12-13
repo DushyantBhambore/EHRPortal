@@ -21,6 +21,8 @@ namespace Infraastructure
         public DbSet<UserType> UserType { get; set; }
         public DbSet<Specialisation> Specialisation { get; set; }
 
+        public DbSet<Appoinment> Appoinment { get; set; }
+
         public IDbConnection GetConnection()
         {
             return this.Database.GetDbConnection();

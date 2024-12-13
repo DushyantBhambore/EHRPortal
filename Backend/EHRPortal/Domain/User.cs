@@ -22,12 +22,10 @@ namespace Domain
         public int StateId { get; set; }
         public string City { get; set; }
         public int CountryId { get; set; }
-        public string Qualification { get; set; }
-        public int Specialisation { get; set; }
-        public string RegistrationNumber { get; set; }
-        public decimal VisitingCharge { get; set; }
-
-
+        public string? Qualification { get; set; } = string.Empty;
+        public int? Specialisation { get; set; } = 0;
+        public string? RegistrationNumber { get; set; } = string.Empty;
+        public decimal? VisitingCharge { get; set; } = 0;
 
 
     }

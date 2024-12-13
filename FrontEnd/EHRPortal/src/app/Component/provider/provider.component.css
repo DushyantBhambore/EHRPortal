@@ -1,0 +1,37 @@
+
+
+
+.centered-card {
+    margin-top: 50px;
+    max-width: 100;
+  }
+  
+  .example-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .example-form .row {
+    justify-content: center;
+  }
+  
+  .example-form .col-4 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .example-form mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .example-form mat-select {
+    width: 100%;
+  }
+  
+  .example-button-row {
+    margin-top: 20px;
+  }
+
+ 

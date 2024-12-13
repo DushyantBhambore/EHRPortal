@@ -25,7 +25,7 @@ namespace App.Core.Apps.UserType.Query
         {
             //var list = await _appDbContext.Set<Domain.Role>().AsTracking().ToListAsync();
             using var connection = _appDbContext.GetConnection();
-            var query = "SELECT * FROM Role ";
+            var query = "SELECT * FROM UserType";
             var data = await connection.QueryAsync<UserTypeDto>(query);
             return data.AsList();
 
