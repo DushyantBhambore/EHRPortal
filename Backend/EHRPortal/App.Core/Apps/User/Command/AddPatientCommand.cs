@@ -50,7 +50,7 @@ namespace App.Core.Apps.User.Command
 
             var allowedFileExtensions = new string[] { ".jpg", ".jpeg", ".png" };
             var filePath = await _fileservice.SaveFileAsync(imageFile, allowedFileExtensions);
-            var fileUrl = $"https://localhost:7295/Uploads/{Path.GetFileName(filePath)}";
+            var fileUrl = $"https://localhost:7161/Uploads/{Path.GetFileName(filePath)}";
 
 
             string formattedDOB = request.patientDto.DOB.ToString("ddMMyy");

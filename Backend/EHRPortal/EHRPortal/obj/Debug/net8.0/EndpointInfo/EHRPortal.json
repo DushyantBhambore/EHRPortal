@@ -5,6 +5,72 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Appoinment/PatientAppoinment": {
+      "post": {
+        "tags": [
+          "Appoinment"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PatientAppoinmentDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PatientAppoinmentDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PatientAppoinmentDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Appoinment/GetAllProviderBySpecialisation/{id}": {
+      "get": {
+        "tags": [
+          "Appoinment"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Appoinment/GetAllProvider": {
+      "get": {
+        "tags": [
+          "Appoinment"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Country/AddCountry": {
       "post": {
         "tags": [
@@ -79,6 +145,18 @@
         }
       }
     },
+    "/api/Specialisation/GetAllSpecialisation": {
+      "get": {
+        "tags": [
+          "Specialisation"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/State/AddState": {
       "post": {
         "tags": [
@@ -122,7 +200,7 @@
         }
       }
     },
-    "/api/State/GetStateById": {
+    "/api/State/GetStateById/{id}": {
       "get": {
         "tags": [
           "State"
@@ -130,7 +208,8 @@
         "parameters": [
           {
             "name": "id",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -168,12 +247,6 @@
                   "Email": {
                     "type": "string"
                   },
-                  "Username": {
-                    "type": "string"
-                  },
-                  "Password": {
-                    "type": "string"
-                  },
                   "Mobile": {
                     "type": "string"
                   },
@@ -186,10 +259,6 @@
                   },
                   "Gender": {
                     "type": "string"
-                  },
-                  "UserTypeId": {
-                    "type": "integer",
-                    "format": "int32"
                   },
                   "ImageFile": {
                     "type": "string",
@@ -228,12 +297,6 @@
                 "Email": {
                   "style": "form"
                 },
-                "Username": {
-                  "style": "form"
-                },
-                "Password": {
-                  "style": "form"
-                },
                 "Mobile": {
                   "style": "form"
                 },
@@ -244,9 +307,6 @@
                   "style": "form"
                 },
                 "Gender": {
-                  "style": "form"
-                },
-                "UserTypeId": {
                   "style": "form"
                 },
                 "ImageFile": {
@@ -300,12 +360,6 @@
                     "type": "string"
                   },
                   "Email": {
-                    "type": "string"
-                  },
-                  "Username": {
-                    "type": "string"
-                  },
-                  "Password": {
                     "type": "string"
                   },
                   "Mobile": {
@@ -374,12 +428,6 @@
                   "style": "form"
                 },
                 "Email": {
-                  "style": "form"
-                },
-                "Username": {
-                  "style": "form"
-                },
-                "Password": {
                   "style": "form"
                 },
                 "Mobile": {
@@ -609,12 +657,6 @@
                   "Email": {
                     "type": "string"
                   },
-                  "Username": {
-                    "type": "string"
-                  },
-                  "Password": {
-                    "type": "string"
-                  },
                   "Mobile": {
                     "type": "string"
                   },
@@ -627,10 +669,6 @@
                   },
                   "Gender": {
                     "type": "string"
-                  },
-                  "UserTypeId": {
-                    "type": "integer",
-                    "format": "int32"
                   },
                   "ImageFile": {
                     "type": "string",
@@ -669,12 +707,6 @@
                 "Email": {
                   "style": "form"
                 },
-                "Username": {
-                  "style": "form"
-                },
-                "Password": {
-                  "style": "form"
-                },
                 "Mobile": {
                   "style": "form"
                 },
@@ -685,9 +717,6 @@
                   "style": "form"
                 },
                 "Gender": {
-                  "style": "form"
-                },
-                "UserTypeId": {
                   "style": "form"
                 },
                 "ImageFile": {
@@ -741,12 +770,6 @@
                     "type": "string"
                   },
                   "Email": {
-                    "type": "string"
-                  },
-                  "Username": {
-                    "type": "string"
-                  },
-                  "Password": {
                     "type": "string"
                   },
                   "Mobile": {
@@ -815,12 +838,6 @@
                   "style": "form"
                 },
                 "Email": {
-                  "style": "form"
-                },
-                "Username": {
-                  "style": "form"
-                },
-                "Password": {
                   "style": "form"
                 },
                 "Mobile": {
@@ -1066,6 +1083,40 @@
             "nullable": true
           },
           "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PatientAppoinmentDto": {
+        "type": "object",
+        "properties": {
+          "appoinemntId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "appointmentDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "providerId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "patientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "specialisationId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "appinementTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "chiefcomplaint": {
             "type": "string",
             "nullable": true
           }

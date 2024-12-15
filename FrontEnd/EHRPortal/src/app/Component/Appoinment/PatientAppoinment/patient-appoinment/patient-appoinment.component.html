@@ -1,0 +1,75 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+      <mat-card class="example-card">
+        <h1 class="text-center">Patient Appointment Form</h1>
+        <form [formGroup]="patientappoinmentform" class="example-form">
+          <div class="row">
+            <div class="col-6">
+                <mat-form-field appearance="outline" class="full-width">
+                  <mat-label>Specialisation</mat-label>
+                  <mat-select formControlName="specialisationId" required>
+                    <mat-option *ngFor="let specialisation of specialisationdata" [value]="specialisation.specialisationId">
+                      {{ specialisation.specialisationName }}
+                    </mat-option>
+                  </mat-select>
+                  <mat-error *ngIf="patientappoinmentform.controls['specialisationId'].hasError('required')">
+                    Specialisation is required
+                  </mat-error>
+                </mat-form-field>
+              </div>
+  
+            <div class="col-6">
+              <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Provider</mat-label>
+                <mat-select formControlName="providerId" required>
+                  <mat-option *ngFor="let provider of providerbyspecialisationdata" [value]="provider.userId">
+                    {{ provider.firstName + ' ' + provider.lastName }}
+                  </mat-option>
+                </mat-select>
+                <mat-error *ngIf="patientappoinmentform.controls['providerId'].hasError('required')">
+                  Provider is required
+                </mat-error>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+                        <div class="col-6">
+              <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Appointment Date</mat-label>
+                <input matInput [matDatepicker]="picker" formControlName="appointmentDate" [min]="minDate" required>
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+                <mat-error *ngIf="patientappoinmentform.controls['appointmentDate'].hasError('required')">
+                  Appointment Date is required
+                </mat-error>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Appointment Time</mat-label>
+                <input matInput [ngxTimepicker]="timepicker"   formControlName="appinementTime" [min]="minTime" required>
+                <ngx-material-timepicker #timepicker></ngx-material-timepicker>
+                <mat-error *ngIf="patientappoinmentform.controls['appinementTime'].hasError('required')">
+                  Appointment Time is required
+                </mat-error>
+              </mat-form-field>
+            </div>
+            <div class="col-6">
+              <mat-form-field appearance="outline" class="full-width">
+                <mat-label>Chief Complaint</mat-label>
+                <textarea matInput formControlName="chiefcomplaint" required></textarea>
+                <mat-error *ngIf="patientappoinmentform.controls['chiefcomplaint'].hasError('required')">
+                  Chief Complaint is required
+                </mat-error>
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="text-center">
+            <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
+          </div>
+        </form>
+      </mat-card>
+    </div>
+  </div>

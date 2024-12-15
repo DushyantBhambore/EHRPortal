@@ -4420,19 +4420,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dushyantbhambore\\.nuget\\packages\\": {}
+    "C:\\Users\\91997\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\EHRPortal.csproj",
+      "projectUniqueName": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\EHRPortal.csproj",
       "projectName": "EHRPortal",
-      "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\EHRPortal.csproj",
-      "packagesPath": "C:\\Users\\dushyantbhambore\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\obj\\",
+      "projectPath": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\EHRPortal.csproj",
+      "packagesPath": "C:\\Users\\91997\\.nuget\\packages\\",
+      "outputPath": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\dushyantbhambore\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\91997\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4440,18 +4445,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\App.Core.csproj": {
-              "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\App.Core\\App.Core.csproj"
+            "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\App.Core\\App.Core.csproj": {
+              "projectPath": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\App.Core\\App.Core.csproj"
             },
-            "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Infraastructure\\Infraastructure.csproj": {
-              "projectPath": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\Infraastructure\\Infraastructure.csproj"
+            "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\Infraastructure\\Infraastructure.csproj": {
+              "projectPath": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\Infraastructure\\Infraastructure.csproj"
             }
           }
         }
@@ -4464,8 +4468,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -4521,7 +4526,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

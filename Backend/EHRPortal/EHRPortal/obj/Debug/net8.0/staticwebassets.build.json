@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QZZlUnePlpfY/k79nFumGKuceTp2QTcMNXJckRsTc3k=",
+  "Hash": "owT0v0ivRrnVNgxqCBpN7LhmXRB/WLIo5UbLzBjujow=",
   "Source": "EHRPortal",
   "BasePath": "_content/EHRPortal",
   "Mode": "Default",
@@ -10,163 +10,1249 @@
     {
       "Name": "EHRPortal\\wwwroot",
       "Source": "EHRPortal",
-      "ContentRoot": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
+      "ContentRoot": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
       "BasePath": "_content/EHRPortal",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\03e3669c-9235-42d2-a9c6-0b31677a8509.jpg",
+      "Identity": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\03e3669c-9235-42d2-a9c6-0b31677a8509.jpg",
       "SourceId": "EHRPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
+      "ContentRoot": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
       "BasePath": "_content/EHRPortal",
-      "RelativePath": "Uploads/03e3669c-9235-42d2-a9c6-0b31677a8509.jpg",
+      "RelativePath": "Uploads/03e3669c-9235-42d2-a9c6-0b31677a8509#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "xjcfd1xz2u",
+      "Integrity": "TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\03e3669c-9235-42d2-a9c6-0b31677a8509.jpg"
     },
     {
-      "Identity": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\140024fa-8e81-4fc5-9378-db9d5ece0a94.jpg",
+      "Identity": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\140024fa-8e81-4fc5-9378-db9d5ece0a94.jpg",
       "SourceId": "EHRPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
+      "ContentRoot": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
       "BasePath": "_content/EHRPortal",
-      "RelativePath": "Uploads/140024fa-8e81-4fc5-9378-db9d5ece0a94.jpg",
+      "RelativePath": "Uploads/140024fa-8e81-4fc5-9378-db9d5ece0a94#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "xjcfd1xz2u",
+      "Integrity": "TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\140024fa-8e81-4fc5-9378-db9d5ece0a94.jpg"
     },
     {
-      "Identity": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\370d46e3-924a-4c0a-bcc2-64e131152067.jpg",
+      "Identity": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\2dadc369-fbaf-4594-a0e6-de6843a1370b.png",
       "SourceId": "EHRPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
+      "ContentRoot": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
       "BasePath": "_content/EHRPortal",
-      "RelativePath": "Uploads/370d46e3-924a-4c0a-bcc2-64e131152067.jpg",
+      "RelativePath": "Uploads/2dadc369-fbaf-4594-a0e6-de6843a1370b#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ihlcxxui0a",
+      "Integrity": "xjwSbLxBZSxqo4LREoWZKXSa1+2udqiqzaOI9Gn058Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\2dadc369-fbaf-4594-a0e6-de6843a1370b.png"
+    },
+    {
+      "Identity": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\370d46e3-924a-4c0a-bcc2-64e131152067.jpg",
+      "SourceId": "EHRPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
+      "BasePath": "_content/EHRPortal",
+      "RelativePath": "Uploads/370d46e3-924a-4c0a-bcc2-64e131152067#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "92i5114c2y",
+      "Integrity": "sW9JZGLDHOkjm/HPSbJE3MvPVYnbTq1MLM2FF++MW6w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\370d46e3-924a-4c0a-bcc2-64e131152067.jpg"
     },
     {
-      "Identity": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\9536b6db-782b-40d7-9c10-e33e16bd4cd8.jpg",
+      "Identity": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\817c22a2-a8e1-461c-8ab7-3db001c35bb2.png",
       "SourceId": "EHRPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
+      "ContentRoot": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
       "BasePath": "_content/EHRPortal",
-      "RelativePath": "Uploads/9536b6db-782b-40d7-9c10-e33e16bd4cd8.jpg",
+      "RelativePath": "Uploads/817c22a2-a8e1-461c-8ab7-3db001c35bb2#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "hdms2mlkmu",
+      "Integrity": "u/Xm3+5EjB3ZzdRFZna3Bm/KK8J1/onFNK1GFgVGVFA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\817c22a2-a8e1-461c-8ab7-3db001c35bb2.png"
+    },
+    {
+      "Identity": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\9536b6db-782b-40d7-9c10-e33e16bd4cd8.jpg",
+      "SourceId": "EHRPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
+      "BasePath": "_content/EHRPortal",
+      "RelativePath": "Uploads/9536b6db-782b-40d7-9c10-e33e16bd4cd8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xjcfd1xz2u",
+      "Integrity": "TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\9536b6db-782b-40d7-9c10-e33e16bd4cd8.jpg"
     },
     {
-      "Identity": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\be40d50f-05ea-429b-ac25-a7d60dd5e46f.jpg",
+      "Identity": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\b575a270-316f-49e5-a5ab-6bc39c3c9667.png",
       "SourceId": "EHRPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
+      "ContentRoot": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
       "BasePath": "_content/EHRPortal",
-      "RelativePath": "Uploads/be40d50f-05ea-429b-ac25-a7d60dd5e46f.jpg",
+      "RelativePath": "Uploads/b575a270-316f-49e5-a5ab-6bc39c3c9667#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "hdms2mlkmu",
+      "Integrity": "u/Xm3+5EjB3ZzdRFZna3Bm/KK8J1/onFNK1GFgVGVFA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\b575a270-316f-49e5-a5ab-6bc39c3c9667.png"
+    },
+    {
+      "Identity": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\be40d50f-05ea-429b-ac25-a7d60dd5e46f.jpg",
+      "SourceId": "EHRPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
+      "BasePath": "_content/EHRPortal",
+      "RelativePath": "Uploads/be40d50f-05ea-429b-ac25-a7d60dd5e46f#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xjcfd1xz2u",
+      "Integrity": "TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\be40d50f-05ea-429b-ac25-a7d60dd5e46f.jpg"
     },
     {
-      "Identity": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\c5602ba1-de69-4719-a96d-ac79541943dc.jpg",
+      "Identity": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\c5602ba1-de69-4719-a96d-ac79541943dc.jpg",
       "SourceId": "EHRPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
+      "ContentRoot": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
       "BasePath": "_content/EHRPortal",
-      "RelativePath": "Uploads/c5602ba1-de69-4719-a96d-ac79541943dc.jpg",
+      "RelativePath": "Uploads/c5602ba1-de69-4719-a96d-ac79541943dc#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "xjcfd1xz2u",
+      "Integrity": "TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\c5602ba1-de69-4719-a96d-ac79541943dc.jpg"
     },
     {
-      "Identity": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\e695d418-9a54-433b-8b85-a118a97eaa3b.jpg",
+      "Identity": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\d6a79ea7-e611-4802-99ae-750266e36ea8.jpg",
       "SourceId": "EHRPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
+      "ContentRoot": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
       "BasePath": "_content/EHRPortal",
-      "RelativePath": "Uploads/e695d418-9a54-433b-8b85-a118a97eaa3b.jpg",
+      "RelativePath": "Uploads/d6a79ea7-e611-4802-99ae-750266e36ea8#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "8fu9ey57wv",
+      "Integrity": "RKgy70ccfc5YjiSEv942qIqrwdLIdahHKDljBEqNl3g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\d6a79ea7-e611-4802-99ae-750266e36ea8.jpg"
+    },
+    {
+      "Identity": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\e695d418-9a54-433b-8b85-a118a97eaa3b.jpg",
+      "SourceId": "EHRPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
+      "BasePath": "_content/EHRPortal",
+      "RelativePath": "Uploads/e695d418-9a54-433b-8b85-a118a97eaa3b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xjcfd1xz2u",
+      "Integrity": "TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\e695d418-9a54-433b-8b85-a118a97eaa3b.jpg"
     },
     {
-      "Identity": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\f25279c9-527f-4c91-8542-8f4a5472212e.jpg",
+      "Identity": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\f25279c9-527f-4c91-8542-8f4a5472212e.jpg",
       "SourceId": "EHRPortal",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
+      "ContentRoot": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
       "BasePath": "_content/EHRPortal",
-      "RelativePath": "Uploads/f25279c9-527f-4c91-8542-8f4a5472212e.jpg",
+      "RelativePath": "Uploads/f25279c9-527f-4c91-8542-8f4a5472212e#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "xjcfd1xz2u",
+      "Integrity": "TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\f25279c9-527f-4c91-8542-8f4a5472212e.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Uploads/03e3669c-9235-42d2-a9c6-0b31677a8509.jpg",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\03e3669c-9235-42d2-a9c6-0b31677a8509.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:25:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/03e3669c-9235-42d2-a9c6-0b31677a8509.xjcfd1xz2u.jpg",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\03e3669c-9235-42d2-a9c6-0b31677a8509.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:25:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xjcfd1xz2u"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/03e3669c-9235-42d2-a9c6-0b31677a8509.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/140024fa-8e81-4fc5-9378-db9d5ece0a94.jpg",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\140024fa-8e81-4fc5-9378-db9d5ece0a94.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:25:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/140024fa-8e81-4fc5-9378-db9d5ece0a94.xjcfd1xz2u.jpg",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\140024fa-8e81-4fc5-9378-db9d5ece0a94.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:25:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xjcfd1xz2u"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/140024fa-8e81-4fc5-9378-db9d5ece0a94.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/2dadc369-fbaf-4594-a0e6-de6843a1370b.ihlcxxui0a.png",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\2dadc369-fbaf-4594-a0e6-de6843a1370b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4985"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xjwSbLxBZSxqo4LREoWZKXSa1+2udqiqzaOI9Gn058Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 11:44:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ihlcxxui0a"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/2dadc369-fbaf-4594-a0e6-de6843a1370b.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xjwSbLxBZSxqo4LREoWZKXSa1+2udqiqzaOI9Gn058Y="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/2dadc369-fbaf-4594-a0e6-de6843a1370b.png",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\2dadc369-fbaf-4594-a0e6-de6843a1370b.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4985"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xjwSbLxBZSxqo4LREoWZKXSa1+2udqiqzaOI9Gn058Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 11:44:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xjwSbLxBZSxqo4LREoWZKXSa1+2udqiqzaOI9Gn058Y="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/370d46e3-924a-4c0a-bcc2-64e131152067.92i5114c2y.jpg",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\370d46e3-924a-4c0a-bcc2-64e131152067.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "174078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sW9JZGLDHOkjm/HPSbJE3MvPVYnbTq1MLM2FF++MW6w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:25:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "92i5114c2y"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/370d46e3-924a-4c0a-bcc2-64e131152067.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sW9JZGLDHOkjm/HPSbJE3MvPVYnbTq1MLM2FF++MW6w="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/370d46e3-924a-4c0a-bcc2-64e131152067.jpg",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\370d46e3-924a-4c0a-bcc2-64e131152067.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "174078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sW9JZGLDHOkjm/HPSbJE3MvPVYnbTq1MLM2FF++MW6w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:25:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sW9JZGLDHOkjm/HPSbJE3MvPVYnbTq1MLM2FF++MW6w="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/817c22a2-a8e1-461c-8ab7-3db001c35bb2.hdms2mlkmu.png",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\817c22a2-a8e1-461c-8ab7-3db001c35bb2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u/Xm3+5EjB3ZzdRFZna3Bm/KK8J1/onFNK1GFgVGVFA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:05:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hdms2mlkmu"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/817c22a2-a8e1-461c-8ab7-3db001c35bb2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u/Xm3+5EjB3ZzdRFZna3Bm/KK8J1/onFNK1GFgVGVFA="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/817c22a2-a8e1-461c-8ab7-3db001c35bb2.png",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\817c22a2-a8e1-461c-8ab7-3db001c35bb2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u/Xm3+5EjB3ZzdRFZna3Bm/KK8J1/onFNK1GFgVGVFA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:05:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u/Xm3+5EjB3ZzdRFZna3Bm/KK8J1/onFNK1GFgVGVFA="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/9536b6db-782b-40d7-9c10-e33e16bd4cd8.jpg",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\9536b6db-782b-40d7-9c10-e33e16bd4cd8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:25:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/9536b6db-782b-40d7-9c10-e33e16bd4cd8.xjcfd1xz2u.jpg",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\9536b6db-782b-40d7-9c10-e33e16bd4cd8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:25:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xjcfd1xz2u"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/9536b6db-782b-40d7-9c10-e33e16bd4cd8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/b575a270-316f-49e5-a5ab-6bc39c3c9667.hdms2mlkmu.png",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\b575a270-316f-49e5-a5ab-6bc39c3c9667.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u/Xm3+5EjB3ZzdRFZna3Bm/KK8J1/onFNK1GFgVGVFA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 10:39:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hdms2mlkmu"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/b575a270-316f-49e5-a5ab-6bc39c3c9667.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u/Xm3+5EjB3ZzdRFZna3Bm/KK8J1/onFNK1GFgVGVFA="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/b575a270-316f-49e5-a5ab-6bc39c3c9667.png",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\b575a270-316f-49e5-a5ab-6bc39c3c9667.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u/Xm3+5EjB3ZzdRFZna3Bm/KK8J1/onFNK1GFgVGVFA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 10:39:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u/Xm3+5EjB3ZzdRFZna3Bm/KK8J1/onFNK1GFgVGVFA="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/be40d50f-05ea-429b-ac25-a7d60dd5e46f.jpg",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\be40d50f-05ea-429b-ac25-a7d60dd5e46f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:25:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/be40d50f-05ea-429b-ac25-a7d60dd5e46f.xjcfd1xz2u.jpg",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\be40d50f-05ea-429b-ac25-a7d60dd5e46f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:25:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xjcfd1xz2u"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/be40d50f-05ea-429b-ac25-a7d60dd5e46f.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/c5602ba1-de69-4719-a96d-ac79541943dc.jpg",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\c5602ba1-de69-4719-a96d-ac79541943dc.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:25:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/c5602ba1-de69-4719-a96d-ac79541943dc.xjcfd1xz2u.jpg",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\c5602ba1-de69-4719-a96d-ac79541943dc.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:25:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xjcfd1xz2u"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/c5602ba1-de69-4719-a96d-ac79541943dc.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/d6a79ea7-e611-4802-99ae-750266e36ea8.8fu9ey57wv.jpg",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\d6a79ea7-e611-4802-99ae-750266e36ea8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RKgy70ccfc5YjiSEv942qIqrwdLIdahHKDljBEqNl3g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:27:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8fu9ey57wv"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/d6a79ea7-e611-4802-99ae-750266e36ea8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RKgy70ccfc5YjiSEv942qIqrwdLIdahHKDljBEqNl3g="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/d6a79ea7-e611-4802-99ae-750266e36ea8.jpg",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\d6a79ea7-e611-4802-99ae-750266e36ea8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RKgy70ccfc5YjiSEv942qIqrwdLIdahHKDljBEqNl3g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 13:27:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RKgy70ccfc5YjiSEv942qIqrwdLIdahHKDljBEqNl3g="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/e695d418-9a54-433b-8b85-a118a97eaa3b.jpg",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\e695d418-9a54-433b-8b85-a118a97eaa3b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:25:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/e695d418-9a54-433b-8b85-a118a97eaa3b.xjcfd1xz2u.jpg",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\e695d418-9a54-433b-8b85-a118a97eaa3b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:25:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xjcfd1xz2u"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/e695d418-9a54-433b-8b85-a118a97eaa3b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/f25279c9-527f-4c91-8542-8f4a5472212e.jpg",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\f25279c9-527f-4c91-8542-8f4a5472212e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:25:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/f25279c9-527f-4c91-8542-8f4a5472212e.xjcfd1xz2u.jpg",
+      "AssetFile": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\f25279c9-527f-4c91-8542-8f4a5472212e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 07:25:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xjcfd1xz2u"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/f25279c9-527f-4c91-8542-8f4a5472212e.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TY7AnZsFG7UJu9SKLEEMtqQYM3OjyrQS46LEZ96QERE="
+        }
+      ]
     }
   ]
 }

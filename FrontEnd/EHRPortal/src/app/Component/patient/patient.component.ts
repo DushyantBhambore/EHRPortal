@@ -60,7 +60,7 @@ export class PatientComponent {
       lastName: ['', [Validators.required]],
       email: ['', [Validators.required, Validators.email]],
       mobile: ['', [Validators.required, Validators.pattern('^[0-9]{10}$'),]],
-      dob: ['', [Validators.required, Validators.pattern(/^\d{4}-\d{2}-\d{2}$/)]],
+      dob: ['', [Validators.required, ]],
       bloogGroup: ['', [Validators.required]],
       gender : ['', [Validators.required]],
       address: ['', [Validators.required]],
@@ -103,7 +103,7 @@ export class PatientComponent {
     this.sanitizeField('firstName');
     this.sanitizeField('lastName');
     this.sanitizeField('gender');
-    this.sanitizeField('bloogGroup');
+    // this.sanitizeField('bloogGroup');
     this.sanitizeField('address');
     this.sanitizeField('city');
    
@@ -157,6 +157,11 @@ export class PatientComponent {
     }
     const formData = new FormData();
     const formValues = this.patientform.getRawValue();
+
+    if (formValues.dob) {
+      const dob = new Date(formValues.dob);
+      formValues.dob = dob.toISOString(); // Convert to ISO string which includes time
+    }
     // Append all fields to FormData except imageFile if it's not selected
     Object.keys(formValues).forEach(key => {
       const value = formValues[key];

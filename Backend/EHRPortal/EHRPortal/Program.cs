@@ -48,7 +48,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseCors("AllowSpecificOrigin");
-app.UseStaticFiles();
+app.UseStaticFiles(); // Enable static file serving
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();

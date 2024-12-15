@@ -47,10 +47,13 @@ namespace Infraastructure.Migrations
                     b.Property<decimal>("Fee")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("SpecialisationId")
+                    b.Property<int>("PatientId")
                         .HasColumnType("int");
 
-                    b.Property<int>("UserId")
+                    b.Property<int>("ProviderId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SpecialisationId")
                         .HasColumnType("int");
 
                     b.HasKey("AppoinemntId");

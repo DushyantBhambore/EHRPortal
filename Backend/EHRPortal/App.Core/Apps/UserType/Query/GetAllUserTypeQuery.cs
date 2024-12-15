@@ -10,23 +10,23 @@ using System.Threading.Tasks;
 
 namespace App.Core.Apps.UserType.Query
 {
-    public class GetAllUserTypeQuery : IRequest<List<UserTypeDto>>
+    public class GetAllUserTypeQuery : IRequest<List<Domain.UserType>>
     {
 
     }
-    public class GetAllUserTypeQueryHandller : IRequestHandler<GetAllUserTypeQuery, List<UserTypeDto>>
+    public class GetAllUserTypeQueryHandller : IRequestHandler<GetAllUserTypeQuery, List<Domain.UserType>>
     {
         private readonly IAppDbContext _appDbContext;
         public GetAllUserTypeQueryHandller(IAppDbContext appDbContext)
         {
             _appDbContext = appDbContext;
         }
-        public async Task<List<UserTypeDto>> Handle(GetAllUserTypeQuery request, CancellationToken cancellationToken)
+        public async Task<List<Domain.UserType>> Handle(GetAllUserTypeQuery request, CancellationToken cancellationToken)
         {
             //var list = await _appDbContext.Set<Domain.Role>().AsTracking().ToListAsync();
             using var connection = _appDbContext.GetConnection();
             var query = "SELECT * FROM UserType";
-            var data = await connection.QueryAsync<UserTypeDto>(query);
+            var data = await connection.QueryAsync<Domain.UserType>(query);
             return data.AsList();
 
         }
