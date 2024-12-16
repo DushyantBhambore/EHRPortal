@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EHRPortal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f311c984a407df8859a3861106130ab0684868f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a620a1bb8a06772407e34fbd477880819ec6d1ba")]
 [assembly: System.Reflection.AssemblyProductAttribute("EHRPortal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EHRPortal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
