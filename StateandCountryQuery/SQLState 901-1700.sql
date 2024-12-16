@@ -1,5 +1,5 @@
 
-SET IDENTITY_INSERT [State] ON;
+SET IDENTITY_INSERT [State] OFF;
 
 
 INSERT INTO [state] (StateId, StateName, CountryId) VALUES

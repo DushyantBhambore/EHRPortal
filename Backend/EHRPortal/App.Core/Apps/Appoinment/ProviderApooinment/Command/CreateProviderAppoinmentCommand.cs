@@ -45,6 +45,7 @@ namespace App.Core.Apps.Appoinment.ProviderApooinment.Command
                 Chiefcomplaint = request.providerAppoinmentDto.Chiefcomplaint,
             };
 
+
             return new JSonModel((int)HttpStatusCode.OK, "New Appoinment Created", newAppoinment);
         }
     }

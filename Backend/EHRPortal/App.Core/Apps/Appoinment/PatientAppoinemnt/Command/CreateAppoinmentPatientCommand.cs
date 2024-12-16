@@ -21,13 +21,18 @@ namespace App.Core.Apps.Appoinment.PatientAppoinemnt.Command
 
         private readonly IAppDbContext _appDbContext;
 
-        public CreateAppoinmentPatientCommandHandller(IAppDbContext appDbContext)
+        private readonly IEmailService _emailService;
+
+        public CreateAppoinmentPatientCommandHandller(IAppDbContext appDbContext, IEmailService emailService)
         {
             _appDbContext = appDbContext;
+            _emailService = emailService;
         }
 
         public async Task<JSonModel> Handle(CreateAppoinmentPatientCommand request, CancellationToken cancellationToken)
         {
+
+            
 
             var checkappoinement = await _appDbContext.Set<Domain.Appoinment>()
                 .FirstOrDefaultAsync(a => a.AppoinemntId == request.patientAppoinmentDto.AppoinemntId);
@@ -37,7 +42,17 @@ namespace App.Core.Apps.Appoinment.PatientAppoinemnt.Command
 
 
             }
+<<<<<<< HEAD
             var charges = await _appDbContext.Set<Domain.User>().FirstOrDefaultAsync(a => a.UserId == request.patientAppoinmentDto.ProviderId);
+=======
+            
+            var charges = await _appDbContext.Set<Domain.User>()
+                .FirstOrDefaultAsync(a => a.UserId == request.patientAppoinmentDto.ProviderId);
+
+
+
+
+>>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
             var newAppoinment = new Domain.Appoinment
             {
 
@@ -52,7 +67,18 @@ namespace App.Core.Apps.Appoinment.PatientAppoinemnt.Command
             };
             await _appDbContext.Set<Domain.Appoinment>().AddAsync(newAppoinment);
             await _appDbContext.SaveChangesAsync();
+<<<<<<< HEAD
+=======
+
+            var patientemail = await _appDbContext.Set<Domain.User>().
+                FirstOrDefaultAsync(a => a.UserId == request.patientAppoinmentDto.PatientId);
+
+            _emailService.SendEmailAsync(charges.Email, "Appoinment is Schedule", "Appoiment is Schedule Check");
+            _emailService.SendEmailAsync(patientemail.Email, "Appoinment is Schedule", "Appoiment is Schedule Check");
+
+>>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
             return new JSonModel((int)HttpStatusCode.OK, "New Appoinment Created", newAppoinment);
+
 
         }
     }

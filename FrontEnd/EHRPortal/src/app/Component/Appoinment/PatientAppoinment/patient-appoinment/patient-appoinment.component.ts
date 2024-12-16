@@ -12,6 +12,13 @@ import { MatCardModule } from '@angular/material/card';
 import { MatNativeDateModule } from '@angular/material/core';
 import { NgxMaterialTimepickerModule } from 'ngx-material-timepicker';
 import { CommonModule } from '@angular/common';
+<<<<<<< HEAD
+=======
+import { PaymentDialogComponent } from '../payment-dialog/payment-dialog.component';
+import { MatDialog } from '@angular/material/dialog';
+import { RazorPayService } from '../../../../Service/razor-pay.service';
+import Razorpay from 'razorpay';
+>>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
 
 
 @Component({
@@ -40,6 +47,10 @@ export class PatientAppoinmentComponent {
    router = inject(Router);
    toastr = inject(ToastrService); 
    service = inject(AppoinmentService)
+<<<<<<< HEAD
+=======
+   paymentService= inject(RazorPayService)
+>>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
 
    specialisationdata : any
    providerbyspecialisationdata : any ;
@@ -47,11 +58,21 @@ export class PatientAppoinmentComponent {
    userdata = JSON.parse(sessionStorage.getItem('logindata') || '{}');
    minDate = new Date()
    minTime!:string 
+<<<<<<< HEAD
 
+=======
+   appointmentTime: Date;
+  Fees! : any
+   readonly dialog = inject(MatDialog);
+>>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
 
   constructor(private fb : FormBuilder) 
   {
 
+<<<<<<< HEAD
+=======
+    this.minTime = this.calculateMinTime();
+>>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
 
     this.patientappoinmentform = this.fb.group({
       appointmentDate: ['',[Validators.required]],
@@ -63,10 +84,20 @@ export class PatientAppoinmentComponent {
 
     })
 
+<<<<<<< HEAD
+=======
+    this.appointmentTime = new Date();
+    this.appointmentTime.setHours(this.appointmentTime.getHours() + 1);
+    this.appointmentTime.setMinutes(0);
+    this.appointmentTime.setSeconds(0);
+
+
+>>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
    }
 
 
    ngOnInit(): void {
+<<<<<<< HEAD
     this.getallspecialisation();
     // this.getallprovider();
     this.patientappoinmentform.get('specialisationId')?.valueChanges.subscribe(value => {
@@ -89,6 +120,33 @@ export class PatientAppoinmentComponent {
 
 
 
+=======
+
+    this.getallprovider();
+    this.getallspecialisation();
+    // this.getallprovider();
+  
+   
+
+   }
+
+   calculateMinTime(): string {
+    const now = new Date();
+    const hour = now.getHours() + 1;
+    const minute = now.getMinutes();
+    return `${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`;
+}
+
+
+
+getallprovider()
+{
+  this.service.getallProvider().subscribe((res: any) => {
+    this.providerbyspecialisationdata = res.data;
+  });
+}
+
+>>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
   // getallprovider()
   // {
   //   this.service.getallProvider().subscribe((res : any) => {
@@ -114,10 +172,23 @@ export class PatientAppoinmentComponent {
     } else {
       this.service.getproviderbyid(specialisationId).subscribe((res: any) => {
         this.providerbyspecialisationdata = res.data;
+<<<<<<< HEAD
+=======
+        console.log(this.providerbyspecialisationdata);
+
+>>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
       });
     }
   }
 
+<<<<<<< HEAD
+=======
+  getSelectedProviderVisitingCharge(): any {
+   this.Fees= this.providerbyspecialisationdata.find((provider: any) => provider.userId === this.patientappoinmentform.get('providerId')?.value);
+    return this.Fees ? this.Fees.visitingCharge : '';
+  }
+
+>>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
   //  getproviderbyspecialisation()
   //  {
   //   this.service.getproviderbyid(this.patientappoinmentform.value.specialisationId).subscribe((res : any) => {
@@ -136,6 +207,72 @@ export class PatientAppoinmentComponent {
      })
    }
 
+<<<<<<< HEAD
+=======
+  //  openDialog() {
+  //   const dialogRef = this.dialog.open(PaymentDialogComponent);
+
+  //   dialogRef.afterClosed().subscribe(result => {
+  //     console.log(`Dialog result: ${result}`);
+  //   });
+  // }
+
+
+  openModal(){
+    const modal = document.getElementById("myModal");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  CloseModal(){
+    const modal = document.getElementById("myModal");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+
+
+  Pay()
+  {
+    const amount: number = (this.Fees);
+    this.onPayNow(Math.floor(amount));
+  }
+
+  onPayNow(amount: number) {
+    debugger;
+    
+    this.paymentService.createOrder(amount).subscribe((order:any) => {
+      console.log('API request sent' , amount);
+      console.log(order)
+      const options: any = {
+        key:'rzp_test_KMY5pBLSVhJH3u', // Replace with your Razorpay Key ID
+        amount: amount * 100, // Amount in paise
+        currency: 'INR',
+        name: 'SDN Company',
+        description: 'Payment for Order',
+        order_id: order.orderId,
+        handler: (response: any) => {
+          // this.verifyPayment(response);
+        },
+        prefill: {
+          name: 'Customer Name',
+          email: 'customer@example.com',
+        },
+        theme: {
+          color: '#F37254'
+        }
+      };
+      
+      const rzp1 :any = new Razorpay(options);
+      rzp1.open();
+    });
+    this.onSubmit();
+  }
+
+  
+
+>>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
    onSubmit()
    {
      if(this.patientappoinmentform.invalid)
@@ -143,7 +280,13 @@ export class PatientAppoinmentComponent {
       return;
      }
 
+<<<<<<< HEAD
      this.service.patientappoinment(this.patientappoinmentform.value).subscribe({
+=======
+     const formValues = this.patientappoinmentform.value;
+     formValues.appinementTime = this.appointmentTime.toISOString();
+     this.service.patientappoinment(formValues).subscribe({
+>>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
 
       next: (res : any) => {
         if(res.statusCode === 200)

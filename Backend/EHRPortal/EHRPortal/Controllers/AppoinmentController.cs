@@ -40,5 +40,34 @@ namespace EHRPortal.Controllers
             return Ok(result);
         }
 
+<<<<<<< HEAD
+=======
+        [HttpGet("[action]/{id}")]
+        public async Task<IActionResult> GetPatientAppoinment(int id)
+        {
+
+            var result = await _mediator.Send(new GetPatientAppoinmentByidQueryList
+            { id = id });
+            return Ok(result);
+        }
+
+        [HttpGet("[action]/{id}")]
+        public async Task<IActionResult> GetByIdAppoinment(int id)
+        {
+            var result = await _mediator.Send(new GetByIdPatientAppoinemntQuery
+            { id = id });
+            return Ok(result);
+        }
+
+
+        [HttpGet("[action]/{id}")]
+        public async Task<IActionResult> GetFees(int id)
+        {
+            var result = await _mediator.Send(new GetPaymentBYProviderIdQuery
+            { id = id });
+            return Ok(result);
+        }
+
+>>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
     }
 }
