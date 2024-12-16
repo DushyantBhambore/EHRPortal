@@ -191,7 +191,15 @@ onOTP() {
        progressAnimation: 'increasing',
        positionClass: 'toast-top-right'
      });
-     this.router.navigateByUrl('/patientappoinment');
+
+      if(res.data.userTypeId == 1)
+      {
+     this.router.navigateByUrl('/provider-dashboard');
+
+      }
+      else{
+     this.router.navigateByUrl('/patient-dashboard');
+      }
    },
    error: (err) => {
      this.toastr.error('OTP verification failed', 'Error', {

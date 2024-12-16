@@ -102,10 +102,8 @@ export class ProviderComponent {
     this.sanitizeField('firstName');
     this.sanitizeField('lastName');
     this.sanitizeField('gender');
-    this.sanitizeField('bloogGroup');
     this.sanitizeField('address');
     this.sanitizeField('city');
-
   }
   
 
@@ -122,15 +120,19 @@ export class ProviderComponent {
           progressBar: true,
           progressAnimation: 'increasing',
           positionClass: 'toast-top-right'
-
         }
       );
       return;
     }
 
     const formData = new FormData();
-    Object.keys(this.providerform.controls).forEach(key => {
-      const value = this.providerform.get(key)?.value;
+    const formValues = this.providerform.getRawValue();
+    if (formValues.dob) {
+      const dob = new Date(formValues.dob);
+      formValues.dob = dob.toISOString(); // Convert to ISO string which includes time
+    }
+    Object.keys(formValues).forEach(key => {
+      const value = formValues[key];;
       if (key === 'imageFile' && this.imageFile) {
         formData.append(key, this.imageFile);
       } else if (value) {

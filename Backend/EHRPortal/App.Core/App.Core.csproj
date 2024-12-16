@@ -24,7 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Apps\Appoinment\PatientAppoinemnt\Query\" />
     <Folder Include="Apps\Appoinment\ProviderApooinment\Query\" />
   </ItemGroup>
 

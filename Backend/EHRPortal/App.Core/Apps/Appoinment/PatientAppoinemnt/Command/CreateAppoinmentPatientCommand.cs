@@ -37,19 +37,23 @@ namespace App.Core.Apps.Appoinment.PatientAppoinemnt.Command
 
 
             }
-            var charges = await _appDbContext.Set<Domain.User>().FirstOrDefaultAsync(a => a.UserId == request.patientAppoinmentDto.UserId);
+            var charges = await _appDbContext.Set<Domain.User>().FirstOrDefaultAsync(a => a.UserId == request.patientAppoinmentDto.ProviderId);
             var newAppoinment = new Domain.Appoinment
             {
-                UserId = request.patientAppoinmentDto.UserId,
+
+                PatientId = request.patientAppoinmentDto.PatientId,
+                ProviderId = request.patientAppoinmentDto.ProviderId,
                 AppointmentDate = request.patientAppoinmentDto.AppointmentDate,
                 AppinementTime = request.patientAppoinmentDto.AppinementTime,
-                AppointmentStatus = request.patientAppoinmentDto.AppointmentStatus,
+                AppointmentStatus = "Scheduled",
                 Chiefcomplaint = request.patientAppoinmentDto.Chiefcomplaint,
                 Fee = (decimal)charges.VisitingCharge,
-                SpecialisationId = request.patientAppoinmentDto.SpecialisationId,
+                SpecialisationId = request.patientAppoinmentDto.SpecialisationId
             };
-
+            await _appDbContext.Set<Domain.Appoinment>().AddAsync(newAppoinment);
+            await _appDbContext.SaveChangesAsync();
             return new JSonModel((int)HttpStatusCode.OK, "New Appoinment Created", newAppoinment);
+
 
         }
     }

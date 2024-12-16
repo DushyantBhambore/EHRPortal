@@ -74,8 +74,8 @@ export class LoginService {
     return this.http.post(this.loginurl,data)
   }
 
-  getbyid(data :any){
-    return this.http.post(this.getbyidurl,data)
+  getbyid(id :number){
+    return this.http.get(this.getbyidurl+'/'+id)
   }
 
   getallcountry(){

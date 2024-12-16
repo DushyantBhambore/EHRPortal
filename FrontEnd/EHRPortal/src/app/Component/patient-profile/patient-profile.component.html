@@ -1,0 +1,205 @@
+<div class="container my-5">
+    <div class="row justify-content-center">
+      <!-- Profile Details -->
+      <div class="col-md-8">
+        <div class="card border-0 shadow-sm animate__animated animate__fadeInUp">
+          <div class="card-header bg-primary text-white">
+            <h2 class="text-center">Welcome {{userObj?.firstName}}</h2>
+          </div>
+          <div class="card-body">
+            <div class="text-center">
+              <img src="{{userObj?.imageFile}}" alt="Profile Picture" class="img-fluid rounded-circle" width="150" height="150">
+            </div>
+            <form>
+              <!-- Full Name -->
+              <div class="mb-3 row">
+                <label for="fullName" class="col-sm-3 col-form-label text-secondary">Full Name:</label>
+                <div class="col-sm-9">
+                  <label for="fullName" class="form-label text-primary">{{userObj?.firstName}} {{userObj?.lastName}}</label>
+                </div>
+              </div>
+  
+              <!-- User Name -->
+              <div class="mb-3 row">
+                <label for="userName" class="col-sm-3 col-form-label text-secondary">User Name:</label>
+                <div class="col-sm-9">
+                  <label for="userName" class="form-label text-primary">{{userObj?.username}}</label>
+                </div>
+              </div>
+  
+              <!-- Email -->
+              <div class="mb-3 row">
+                <label for="email" class="col-sm-3 col-form-label text-secondary">Email:</label>
+                <div class="col-sm-9">
+                  <label for="email" class="form-label text-primary">{{userObj?.email}}</label>
+                </div>
+              </div>
+  
+              <!-- Phone Number -->
+              <div class="mb-3 row">
+                <label for="phoneNumber" class="col-sm-3 col-form-label text-secondary">Phone Number:</label>
+                <div class="col-sm-9">
+                  <label for="phoneNumber" class="form-label text-primary">{{userObj?.mobile}}</label>
+                </div>
+              </div>
+             <div class=" d-block text-center ">
+              <button mat-button mat-dialog-close>Close</button>
+                <button mat-button (click)="openDialog()">Launch dialog</button>
+              <button class="btn btn-warning btn-md " style="width: 20%"  (click)="onEdit(userObj)">Edit </button>
+             </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<!-- Modal -->
+<div   id="myModal" class="modal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <button type="button" class="close mx-3" data-dismiss="modal" (click)="CloseModal()">&times;</button> -->
+        <h4 class="modal-title">Update Profile </h4>
+      </div>
+      <div class="modal-body">
+        <form
+        class="form-container"
+        [formGroup]="patientform"
+      >
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="firstName" class="form-label">First Name:</label>
+            <input
+              id="firstName"
+              formControlName="firstName"
+              type="text"
+              class="form-control"
+              maxlength="10" 
+              [ngClass]="{
+                'is-invalid':
+                  patientform.controls['firstName'].invalid && 
+                  patientform.controls['firstName'].touched 
+              }"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="lastName" class="form-label">Last Name:</label>
+            <input
+              id="lastName"
+              formControlName="lastName"
+              maxlength="10" 
+              type="text"
+              class="form-control"
+            />
+          </div>
+          </div>
+          
+        
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="email" class="form-label">Email:</label>
+            <input
+              id="email"
+              formControlName="email"
+              type="email"
+              class="form-control"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="mobile" class="form-label">Mobile:</label>
+            <input
+              id="mobile"
+              formControlName="mobile"
+              type="tel"
+              (keypress)="onKeyPress($event)"
+            maxlength="10"
+            pattern="^[0-9]{10}$"
+              class="form-control"
+              data-bind="value:replyNumber"
+            />
+          
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="dob" class="form-label">Date of Birth:</label>
+            <input id="dob" formControlName="dob" type="datetime-local" class="form-control"  [max]="todayDate"            />
+          </div>
+          <div class="col-md-6">
+            <!-- <label for="roleId" class="form-label">Role:</label> -->
+            <!-- <select id="roleId" formControlName="roleId" class="form-select"> -->
+              <!-- <option *ngFor="let role of roles" [value]="role.roleId"> -->
+                <!-- {{ role.roleName }} -->
+              <!-- </option> -->
+            <!-- </select> -->
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="address" class="form-label">Address:</label>
+            <textarea id="address" maxlength="20"  formControlName="address" class="form-control"></textarea>
+           
+          </div>
+          <div class="col-md-6">
+            <!-- <label for="zipcode" class="form-label">Zipcode:</label> -->
+            <!-- <input id="zipcode"   type="number"   maxlength="6" formControlName="zipcode" class="form-control" /> -->
+           
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="countryId" class="form-label">Country :</label>
+            <select id="countryId" formControlName="countryId" class="form-select">
+              <option *ngFor="let country of countries" [value]="country.countryId">
+                {{ country.countryName }}
+              </option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="stateId" class="form-label">State :</label>
+            <select id="stateId" formControlName="stateId" class="form-select">
+              <option *ngFor="let state of states" [value]="state.stateId">
+                {{ state.stateName }}
+              </option>
+            </select>
+          </div>
+          
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="imageFile" class="form-label">Profile Image:</label>
+            <input
+                id="imageFile"
+                type="file"
+                class="form-control"
+                formControlName="imageFile"
+                (change)="onFileChange($event)"
+              />
+           
+          </div>
+        </div>
+      </form>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary btn-md"  (click)="onSubmit()">Update </button>
+
+        <!-- <button type="button" class="btn btn-danger" data-dismiss="modal" (click)="CloseModal()">Close</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+

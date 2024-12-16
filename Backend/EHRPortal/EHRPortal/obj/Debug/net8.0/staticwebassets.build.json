@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QZZlUnePlpfY/k79nFumGKuceTp2QTcMNXJckRsTc3k=",
+  "Hash": "UeyCbjrw23gm0n8zBJwb1FxWnyXBJiCx84GUHKFxF/E=",
   "Source": "EHRPortal",
   "BasePath": "_content/EHRPortal",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\140024fa-8e81-4fc5-9378-db9d5ece0a94.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\1f1d40a3-ed53-46b9-98a8-7744dd35c69c.jpg",
+      "SourceId": "EHRPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\",
+      "BasePath": "_content/EHRPortal",
+      "RelativePath": "Uploads/1f1d40a3-ed53-46b9-98a8-7744dd35c69c.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\1f1d40a3-ed53-46b9-98a8-7744dd35c69c.jpg"
     },
     {
       "Identity": "C:\\Users\\dushyantbhambore\\Desktop\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\wwwroot\\Uploads\\370d46e3-924a-4c0a-bcc2-64e131152067.jpg",

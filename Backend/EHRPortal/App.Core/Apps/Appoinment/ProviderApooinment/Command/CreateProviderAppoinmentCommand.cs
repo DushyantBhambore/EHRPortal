@@ -38,12 +38,13 @@ namespace App.Core.Apps.Appoinment.ProviderApooinment.Command
             }
             var newAppoinment = new Domain.Appoinment
             {
-                UserId = request.providerAppoinmentDto.UserId,
+                ProviderId = request.providerAppoinmentDto.ProviderId,
                 AppointmentDate = request.providerAppoinmentDto.AppointmentDate,
                 AppinementTime = request.providerAppoinmentDto.AppinementTime,
                 AppointmentStatus = request.providerAppoinmentDto.AppointmentStatus,
                 Chiefcomplaint = request.providerAppoinmentDto.Chiefcomplaint,
             };
+
 
             return new JSonModel((int)HttpStatusCode.OK, "New Appoinment Created", newAppoinment);
         }

@@ -56,7 +56,16 @@
             <div class="col-4">
                 <mat-form-field appearance="outline">
                     <mat-label>Blood Group</mat-label>
-                    <input  matInput  formControlName="bloogGroup" placeholder="Placeholder">
+                    <mat-select formControlName="bloogGroup"  required>
+                      <mat-option value='A+'>A+</mat-option>
+                      <mat-option value='A-'>A-</mat-option>
+                      <mat-option value='B+'>B+</mat-option>
+                      <mat-option value='B-'>B-</mat-option>
+                      <mat-option value='AB+'>AB+</mat-option>
+                      <mat-option value='AB-'>AB-</mat-option>
+                      <mat-option value='O+'>O+</mat-option>
+                      <mat-option value='O-'>O-</mat-option>
+                    </mat-select>
                     <mat-error *ngIf="providerform.controls['bloogGroup'].errors?.['required']">
                       Blood Group is required
                     </mat-error>
@@ -67,7 +76,11 @@
             <div class="col-4">
                 <mat-form-field appearance="outline">
                     <mat-label>Gender </mat-label>
-                    <input  matInput  formControlName="gender" placeholder="Placeholder">
+                    <mat-select formControlName="gender"  required>
+                      <mat-option value='Male'>Male</mat-option>
+                      <mat-option value='Female'>Female</mat-option>
+                      <mat-option value='Other'>Other</mat-option>
+                    </mat-select>
                     <mat-error *ngIf="providerform.controls['gender'].errors?.['required']">
                       Gender is required
                     </mat-error>

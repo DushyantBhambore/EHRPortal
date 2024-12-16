@@ -1,4 +1,5 @@
 ﻿using App.Core.Apps.Appoinment.PatientAppoinemnt.Command;
+using App.Core.Apps.Appoinment.PatientAppoinemnt.Query;
 using App.Core.Dto;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -24,5 +25,46 @@ namespace EHRPortal.Controllers
                 CreateAppoinmentPatientCommand { patientAppoinmentDto=patientAppoinmentDto });
             return Ok(result);
         }
+        [HttpGet("[action]/{id}")]
+        public async Task<IActionResult> GetAllProviderBySpecialisation(int id)
+        {
+            var result = await _mediator.Send(new GetAllProviderBySpecialisationIdQuery
+            { id = id });
+            return Ok(result);
+        }
+
+        [HttpGet("GetAllProvider")]
+        public async Task<IActionResult> GetAllProvider()
+        {
+            var result = await _mediator.Send(new GetAllProviderQuery());
+            return Ok(result);
+        }
+
+        [HttpGet("[action]/{id}")]
+        public async Task<IActionResult> GetPatientAppoinment(int id)
+        {
+
+            var result = await _mediator.Send(new GetPatientAppoinmentByidQueryList
+            { id = id });
+            return Ok(result);
+        }
+
+        [HttpGet("[action]/{id}")]
+        public async Task<IActionResult> GetByIdAppoinment(int id)
+        {
+            var result = await _mediator.Send(new GetByIdPatientAppoinemntQuery
+            { id = id });
+            return Ok(result);
+        }
+
+
+        [HttpGet("[action]/{id}")]
+        public async Task<IActionResult> GetFees(int id)
+        {
+            var result = await _mediator.Send(new GetPaymentBYProviderIdQuery
+            { id = id });
+            return Ok(result);
+        }
+
     }
 }

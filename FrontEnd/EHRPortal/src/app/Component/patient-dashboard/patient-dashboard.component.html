@@ -1,1 +1,28 @@
-<p>patient-dashboard works!</p>
+<div class="parent">
+    <div class="navbar-container">
+      <nav class="navbar">
+        <div class="logo-container">
+          <img src="../../../assets/Logo/ehrlogo.png" alt="Logo" class="logo me-3 circle-image" width="100" height="100">          <!-- <h1 class="navbar-title">E-Commerce</h1> -->
+          <span class="welcome-text text-dark">Welcome To Patient Dashboard {{name.firstName}}</span> 
+          <a routerLink="/patient-dashboard/patient-appoinment" class="btn btn-primary mx-3">Patient Appoinment</a>
+        </div>
+  
+        <div class="navbar-right">
+          <div class="profile-container"  style="display: flex; align-items: center;">
+            <a [matMenuTriggerFor]="menu">
+              <img src={{profile}} class="profile-circle" alt="Profile" (click)="toggleDropdown()">
+            </a>
+            <mat-menu #menu="matMenu">
+              <button mat-menu-item routerLink="/patient-dashboard/profile">Profile</button>
+              <button mat-menu-item routerLink="/patient-dashboard/change-password">Change Password</button>
+              <button mat-menu-item (click)="onLogOut()">Log Off</button>
+            </mat-menu>
+          </div>  
+  
+         
+        </div>
+      </nav>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+  

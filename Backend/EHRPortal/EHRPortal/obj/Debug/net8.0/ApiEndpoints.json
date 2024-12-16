@@ -1,6 +1,80 @@
 [
   {
     "ContainingType": "EHRPortal.Controllers.AppoinmentController",
+    "Method": "GetAllProvider",
+    "RelativePath": "api/Appoinment/GetAllProvider",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRPortal.Controllers.AppoinmentController",
+    "Method": "GetAllProviderBySpecialisation",
+    "RelativePath": "api/Appoinment/GetAllProviderBySpecialisation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRPortal.Controllers.AppoinmentController",
+    "Method": "GetByIdAppoinment",
+    "RelativePath": "api/Appoinment/GetByIdAppoinment/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRPortal.Controllers.AppoinmentController",
+    "Method": "GetFees",
+    "RelativePath": "api/Appoinment/GetFees/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRPortal.Controllers.AppoinmentController",
+    "Method": "GetPatientAppoinment",
+    "RelativePath": "api/Appoinment/GetPatientAppoinment/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRPortal.Controllers.AppoinmentController",
     "Method": "PatientAppoinment",
     "RelativePath": "api/Appoinment/PatientAppoinment",
     "HttpMethod": "POST",
