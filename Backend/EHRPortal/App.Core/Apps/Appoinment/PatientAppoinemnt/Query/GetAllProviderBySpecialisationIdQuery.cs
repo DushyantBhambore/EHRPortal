@@ -19,10 +19,6 @@ namespace App.Core.Apps.Appoinment.PatientAppoinemnt.Query
 {
     public class GetAllProviderBySpecialisationIdQuery : IRequest<JSonModel>
     {
-<<<<<<< HEAD
-        //public GetAllProviderBySpecialisationIdDto providerBySpecialisationId { get; set; }
-=======
->>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
         public int id { get; set; }
     }
     public class GetAllProviderBySpecialisationIdQueryHandller : IRequestHandler<GetAllProviderBySpecialisationIdQuery, JSonModel>
@@ -35,34 +31,14 @@ namespace App.Core.Apps.Appoinment.PatientAppoinemnt.Query
 
         public async Task<JSonModel> Handle(GetAllProviderBySpecialisationIdQuery request, CancellationToken cancellationToken)
         {
-<<<<<<< HEAD
-            
             var final = await _appDbContext.Set<Domain.Specialisation>().Where(a => a.SpecialisationId == request.id).FirstOrDefaultAsync();
 
-           
-                var list = await _appDbContext
+            var list = await _appDbContext
                .Set<Domain.User>().Where(a => a.Specialisation == request.id
                 && a.UserTypeId == 1
                && a.IsActive == true).ToListAsync();
 
-                return new JSonModel((int)HttpStatusCode.OK, "All Provider", list);
-
-
-=======
-
-            var final = await _appDbContext.Set<Domain.Specialisation>().Where(a => a.SpecialisationId == request.id).FirstOrDefaultAsync();
-
-
-            var list = await _appDbContext
-           .Set<Domain.User>().Where(a => a.Specialisation == request.id
-            && a.UserTypeId == 1
-           && a.IsActive == true).ToListAsync();
-
             return new JSonModel((int)HttpStatusCode.OK, "All Provider", list);
->>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
         }
-
-
-
     }
 }

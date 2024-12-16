@@ -325,3 +325,4 @@ C:\Users\dushyantbhambore\Desktop\EHRPortal\Backend\EHRPortal\EHRPortal\bin\Debu
 C:\Users\dushyantbhambore\Desktop\EHRPortal\Backend\EHRPortal\EHRPortal\bin\Debug\net8.0\BouncyCastle.Crypto.dll
 C:\Users\dushyantbhambore\Desktop\EHRPortal\Backend\EHRPortal\EHRPortal\bin\Debug\net8.0\Razorpay.dll
 >>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
+D:\Sdfolder\SmartData\EHRApplication\EHRPortal\Backend\EHRPortal\EHRPortal\obj\Debug\net8.0\EHRPortal.MvcApplicationPartsAssemblyInfo.cs

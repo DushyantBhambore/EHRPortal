@@ -12,13 +12,10 @@ import { MatCardModule } from '@angular/material/card';
 import { MatNativeDateModule } from '@angular/material/core';
 import { NgxMaterialTimepickerModule } from 'ngx-material-timepicker';
 import { CommonModule } from '@angular/common';
-<<<<<<< HEAD
-=======
 import { PaymentDialogComponent } from '../payment-dialog/payment-dialog.component';
 import { MatDialog } from '@angular/material/dialog';
 import { RazorPayService } from '../../../../Service/razor-pay.service';
 import Razorpay from 'razorpay';
->>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
 
 
 @Component({
@@ -47,10 +44,7 @@ export class PatientAppoinmentComponent {
    router = inject(Router);
    toastr = inject(ToastrService); 
    service = inject(AppoinmentService)
-<<<<<<< HEAD
-=======
    paymentService= inject(RazorPayService)
->>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
 
    specialisationdata : any
    providerbyspecialisationdata : any ;
@@ -58,21 +52,14 @@ export class PatientAppoinmentComponent {
    userdata = JSON.parse(sessionStorage.getItem('logindata') || '{}');
    minDate = new Date()
    minTime!:string 
-<<<<<<< HEAD
-
-=======
    appointmentTime: Date;
   Fees! : any
    readonly dialog = inject(MatDialog);
->>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
 
   constructor(private fb : FormBuilder) 
   {
 
-<<<<<<< HEAD
-=======
     this.minTime = this.calculateMinTime();
->>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
 
     this.patientappoinmentform = this.fb.group({
       appointmentDate: ['',[Validators.required]],
@@ -84,43 +71,16 @@ export class PatientAppoinmentComponent {
 
     })
 
-<<<<<<< HEAD
-=======
     this.appointmentTime = new Date();
     this.appointmentTime.setHours(this.appointmentTime.getHours() + 1);
     this.appointmentTime.setMinutes(0);
     this.appointmentTime.setSeconds(0);
 
 
->>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
    }
 
 
    ngOnInit(): void {
-<<<<<<< HEAD
-    this.getallspecialisation();
-    // this.getallprovider();
-    this.patientappoinmentform.get('specialisationId')?.valueChanges.subscribe(value => {
-      this.getproviderbyspecialisation(value);
-    });
-
-    this.patientappoinmentform.get('appointmentDate')?.valueChanges.subscribe((value) => {
-      this.minTime = this.calculateMinTime(value);
-    })
-
-   }
-
-   calculateMinTime(date :Date): string {
-    const now = date ? new Date(date) : new Date();
-    now.setHours(now.getHours() + 1);
-    // return now.toTimeString().split(' ')[0].substring(0, 5);
-    return now.toISOString().split('T')[1].split(':').slice(0, 2).join(':');
-
-  }
-
-
-
-=======
 
     this.getallprovider();
     this.getallspecialisation();
@@ -146,7 +106,6 @@ getallprovider()
   });
 }
 
->>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
   // getallprovider()
   // {
   //   this.service.getallProvider().subscribe((res : any) => {
@@ -172,23 +131,17 @@ getallprovider()
     } else {
       this.service.getproviderbyid(specialisationId).subscribe((res: any) => {
         this.providerbyspecialisationdata = res.data;
-<<<<<<< HEAD
-=======
         console.log(this.providerbyspecialisationdata);
 
->>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
       });
     }
   }
 
-<<<<<<< HEAD
-=======
   getSelectedProviderVisitingCharge(): any {
    this.Fees= this.providerbyspecialisationdata.find((provider: any) => provider.userId === this.patientappoinmentform.get('providerId')?.value);
     return this.Fees ? this.Fees.visitingCharge : '';
   }
 
->>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
   //  getproviderbyspecialisation()
   //  {
   //   this.service.getproviderbyid(this.patientappoinmentform.value.specialisationId).subscribe((res : any) => {
@@ -207,8 +160,6 @@ getallprovider()
      })
    }
 
-<<<<<<< HEAD
-=======
   //  openDialog() {
   //   const dialogRef = this.dialog.open(PaymentDialogComponent);
 
@@ -272,7 +223,6 @@ getallprovider()
 
   
 
->>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
    onSubmit()
    {
      if(this.patientappoinmentform.invalid)
@@ -280,13 +230,9 @@ getallprovider()
       return;
      }
 
-<<<<<<< HEAD
-     this.service.patientappoinment(this.patientappoinmentform.value).subscribe({
-=======
      const formValues = this.patientappoinmentform.value;
      formValues.appinementTime = this.appointmentTime.toISOString();
      this.service.patientappoinment(formValues).subscribe({
->>>>>>> a552e86ed2b20a2976205b01f4fb775cbec60056
 
       next: (res : any) => {
         if(res.statusCode === 200)
