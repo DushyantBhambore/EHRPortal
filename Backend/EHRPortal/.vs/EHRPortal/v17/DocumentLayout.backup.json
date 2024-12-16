@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|d:\\sdfolder\\smartdata\\ehrapplication\\ehrportal\\backend\\ehrportal\\app.core\\apps\\appoinment\\patientappoinemnt\\query\\getallproviderbyspecialisationidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\appoinment\\patientappoinemnt\\query\\getallproviderbyspecialisationidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB699BE2-FCBE-4F95-A068-24DCBD50B923}|EHRPortal\\EHRPortal.csproj|d:\\sdfolder\\smartdata\\ehrapplication\\ehrportal\\backend\\ehrportal\\ehrportal\\controllers\\appoinmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB699BE2-FCBE-4F95-A068-24DCBD50B923}|EHRPortal\\EHRPortal.csproj|solutionrelative:ehrportal\\controllers\\appoinmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\App.Core\\obj\\Debug\\net8.0\\App.Core.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App.Core\\obj\\Debug\\net8.0\\App.Core.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|d:\\sdfolder\\smartdata\\ehrapplication\\ehrportal\\backend\\ehrportal\\app.core\\apps\\appoinment\\patientappoinemnt\\query\\getallproviderbyspecialisationidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7D4B43B-8DF2-4078-8037-7FD564404159}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\appoinment\\patientappoinemnt\\query\\getallproviderbyspecialisationidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB699BE2-FCBE-4F95-A068-24DCBD50B923}|EHRPortal\\EHRPortal.csproj|d:\\sdfolder\\smartdata\\ehrapplication\\ehrportal\\backend\\ehrportal\\ehrportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -142,11 +142,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AppoinmentController.cs",
               "DocumentMoniker": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\EHRPortal\\Controllers\\AppoinmentController.cs",
               "RelativeDocumentMoniker": "EHRPortal\\Controllers\\AppoinmentController.cs",
@@ -159,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "App.Core.AssemblyInfo.cs",
               "DocumentMoniker": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\App.Core\\obj\\Debug\\net8.0\\App.Core.AssemblyInfo.cs",
               "RelativeDocumentMoniker": "App.Core\\obj\\Debug\\net8.0\\App.Core.AssemblyInfo.cs",
@@ -316,15 +316,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "GetAllProviderBySpecialisationIdQuery.cs",
               "DocumentMoniker": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Apps\\Appoinment\\PatientAppoinemnt\\Query\\GetAllProviderBySpecialisationIdQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Appoinment\\PatientAppoinemnt\\Query\\GetAllProviderBySpecialisationIdQuery.cs",
               "ToolTip": "D:\\Sdfolder\\SmartData\\EHRApplication\\EHRPortal\\Backend\\EHRPortal\\App.Core\\Apps\\Appoinment\\PatientAppoinemnt\\Query\\GetAllProviderBySpecialisationIdQuery.cs",
               "RelativeToolTip": "App.Core\\Apps\\Appoinment\\PatientAppoinemnt\\Query\\GetAllProviderBySpecialisationIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T08:44:33.662Z"
+              "WhenOpened": "2024-12-14T08:44:33.662Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
