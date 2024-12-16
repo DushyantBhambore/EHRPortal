@@ -12,6 +12,10 @@ import { MatCardModule } from '@angular/material/card';
 import { MatNativeDateModule } from '@angular/material/core';
 import { NgxMaterialTimepickerModule } from 'ngx-material-timepicker';
 import { CommonModule } from '@angular/common';
+import { PaymentDialogComponent } from '../payment-dialog/payment-dialog.component';
+import { MatDialog } from '@angular/material/dialog';
+import { RazorPayService } from '../../../../Service/razor-pay.service';
+import Razorpay from 'razorpay';
 
 
 @Component({
@@ -40,6 +44,7 @@ export class PatientAppoinmentComponent {
    router = inject(Router);
    toastr = inject(ToastrService); 
    service = inject(AppoinmentService)
+   paymentService= inject(RazorPayService)
 
    specialisationdata : any
    providerbyspecialisationdata : any ;
@@ -47,11 +52,14 @@ export class PatientAppoinmentComponent {
    userdata = JSON.parse(sessionStorage.getItem('logindata') || '{}');
    minDate = new Date()
    minTime!:string 
-
+   appointmentTime: Date;
+  Fees! : any
+   readonly dialog = inject(MatDialog);
 
   constructor(private fb : FormBuilder) 
   {
 
+    this.minTime = this.calculateMinTime();
 
     this.patientappoinmentform = this.fb.group({
       appointmentDate: ['',[Validators.required]],
@@ -63,31 +71,40 @@ export class PatientAppoinmentComponent {
 
     })
 
+    this.appointmentTime = new Date();
+    this.appointmentTime.setHours(this.appointmentTime.getHours() + 1);
+    this.appointmentTime.setMinutes(0);
+    this.appointmentTime.setSeconds(0);
+
+
    }
 
 
    ngOnInit(): void {
+
+    this.getallprovider();
     this.getallspecialisation();
     // this.getallprovider();
-    this.patientappoinmentform.get('specialisationId')?.valueChanges.subscribe(value => {
-      this.getproviderbyspecialisation(value);
-    });
-
-    this.patientappoinmentform.get('appointmentDate')?.valueChanges.subscribe((value) => {
-      this.minTime = this.calculateMinTime(value);
-    })
+  
+   
 
    }
 
-   calculateMinTime(date :Date): string {
-    const now = date ? new Date(date) : new Date();
-    now.setHours(now.getHours() + 1);
-    // return now.toTimeString().split(' ')[0].substring(0, 5);
-    return now.toISOString().split('T')[1].split(':').slice(0, 2).join(':');
+   calculateMinTime(): string {
+    const now = new Date();
+    const hour = now.getHours() + 1;
+    const minute = now.getMinutes();
+    return `${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`;
+}
 
-  }
 
 
+getallprovider()
+{
+  this.service.getallProvider().subscribe((res: any) => {
+    this.providerbyspecialisationdata = res.data;
+  });
+}
 
   // getallprovider()
   // {
@@ -114,8 +131,15 @@ export class PatientAppoinmentComponent {
     } else {
       this.service.getproviderbyid(specialisationId).subscribe((res: any) => {
         this.providerbyspecialisationdata = res.data;
+        console.log(this.providerbyspecialisationdata);
+
       });
     }
+  }
+
+  getSelectedProviderVisitingCharge(): any {
+   this.Fees= this.providerbyspecialisationdata.find((provider: any) => provider.userId === this.patientappoinmentform.get('providerId')?.value);
+    return this.Fees ? this.Fees.visitingCharge : '';
   }
 
   //  getproviderbyspecialisation()
@@ -136,6 +160,69 @@ export class PatientAppoinmentComponent {
      })
    }
 
+  //  openDialog() {
+  //   const dialogRef = this.dialog.open(PaymentDialogComponent);
+
+  //   dialogRef.afterClosed().subscribe(result => {
+  //     console.log(`Dialog result: ${result}`);
+  //   });
+  // }
+
+
+  openModal(){
+    const modal = document.getElementById("myModal");
+    if (modal) {
+      modal.style.display = "block";
+    }
+  }
+
+  CloseModal(){
+    const modal = document.getElementById("myModal");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  }
+
+
+  Pay()
+  {
+    const amount: number = (this.Fees);
+    this.onPayNow(Math.floor(amount));
+  }
+
+  onPayNow(amount: number) {
+    debugger;
+    
+    this.paymentService.createOrder(amount).subscribe((order:any) => {
+      console.log('API request sent' , amount);
+      console.log(order)
+      const options: any = {
+        key:'rzp_test_KMY5pBLSVhJH3u', // Replace with your Razorpay Key ID
+        amount: amount * 100, // Amount in paise
+        currency: 'INR',
+        name: 'SDN Company',
+        description: 'Payment for Order',
+        order_id: order.orderId,
+        handler: (response: any) => {
+          // this.verifyPayment(response);
+        },
+        prefill: {
+          name: 'Customer Name',
+          email: 'customer@example.com',
+        },
+        theme: {
+          color: '#F37254'
+        }
+      };
+      
+      const rzp1 :any = new Razorpay(options);
+      rzp1.open();
+    });
+    this.onSubmit();
+  }
+
+  
+
    onSubmit()
    {
      if(this.patientappoinmentform.invalid)
@@ -143,7 +230,9 @@ export class PatientAppoinmentComponent {
       return;
      }
 
-     this.service.patientappoinment(this.patientappoinmentform.value).subscribe({
+     const formValues = this.patientappoinmentform.value;
+     formValues.appinementTime = this.appointmentTime.toISOString();
+     this.service.patientappoinment(formValues).subscribe({
 
       next: (res : any) => {
         if(res.statusCode === 200)

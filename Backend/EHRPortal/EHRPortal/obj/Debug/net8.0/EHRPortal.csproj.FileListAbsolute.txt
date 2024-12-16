@@ -318,3 +318,6 @@ C:\Users\dushyantbhambore\Desktop\EHRPortal\Backend\EHRPortal\EHRPortal\obj\Debu
 C:\Users\dushyantbhambore\Desktop\EHRPortal\Backend\EHRPortal\EHRPortal\obj\Debug\net8.0\EHRPortal.genruntimeconfig.cache
 C:\Users\dushyantbhambore\Desktop\EHRPortal\Backend\EHRPortal\EHRPortal\obj\Debug\net8.0\ref\EHRPortal.dll
 C:\Users\dushyantbhambore\Desktop\EHRPortal\Backend\EHRPortal\EHRPortal\bin\Debug\net8.0\PasswordGenerator.dll
+C:\Users\dushyantbhambore\Desktop\EHRPortal\Backend\EHRPortal\EHRPortal\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\dushyantbhambore\Desktop\EHRPortal\Backend\EHRPortal\EHRPortal\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\dushyantbhambore\Desktop\EHRPortal\Backend\EHRPortal\EHRPortal\bin\Debug\net8.0\Razorpay.dll

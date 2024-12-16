@@ -8,7 +8,7 @@
                 <mat-form-field appearance="outline" class="full-width">
                   <mat-label>Specialisation</mat-label>
                   <mat-select formControlName="specialisationId" required>
-                    <mat-option *ngFor="let specialisation of specialisationdata" [value]="specialisation.specialisationId">
+                    <mat-option *ngFor="let specialisation of specialisationdata" (onSelectionChange)="getproviderbyspecialisation(specialisation.specialisationId)" [value]="specialisation.specialisationId">
                       {{ specialisation.specialisationName }}
                     </mat-option>
                   </mat-select>
@@ -33,7 +33,7 @@
             </div>
           </div>
           <div class="row">
-                        <div class="col-6">
+            <div class="col-6">
               <mat-form-field appearance="outline" class="full-width">
                 <mat-label>Appointment Date</mat-label>
                 <input matInput [matDatepicker]="picker" formControlName="appointmentDate" [min]="minDate" required>
@@ -44,6 +44,15 @@
                 </mat-error>
               </mat-form-field>
             </div>
+
+            <div class="col-6">
+              <mat-form-field appearance="outline" class="full-width" *ngIf="patientappoinmentform.get('providerId')?.value">
+                <mat-label>Visiting Charge</mat-label>
+                <input matInput [value]="getSelectedProviderVisitingCharge()" readonly>
+              </mat-form-field>
+            </div>
+
+          
           </div>
           <div class="row">
             <div class="col-6">
@@ -67,9 +76,39 @@
             </div>
           </div>
           <div class="text-center">
-            <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
+            <button mat-raised-button color="primary" (click)="openModal()">Proceed to Payment</button>
           </div>
         </form>
       </mat-card>
     </div>
   </div>
+
+
+  <!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h1 class="modal-title">Payment</h1>
+        <button type="button" class="close" data-dismiss="modal" (click)="CloseModal()">&times;</button>
+      </div>
+
+
+      <!-- Modal body -->
+      <div class="modal-body">
+
+        <div class="col-md-6">
+          <label for="visitingCharge" class="form-label">Visiting Charge:</label>
+          <input type="text" class="form-control" id="visitingCharge" [value]="getSelectedProviderVisitingCharge()" readonly>
+        </div>
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal" (click)="Pay()">Pay</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal" (click)="CloseModal()">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>

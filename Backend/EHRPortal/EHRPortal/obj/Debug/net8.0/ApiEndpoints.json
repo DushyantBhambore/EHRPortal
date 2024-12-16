@@ -116,6 +116,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "EHRPortal.Controllers.PaymentsController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/Payments/create-order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "App.Core.Apps.RazorPay.Command.CreateRazorpayOrderCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHRPortal.Controllers.PaymentsController",
+    "Method": "VerifyPayment",
+    "RelativePath": "api/Payments/verify-payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "App.Core.Apps.RazorPay.Command.VerifyRazorpayPaymentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EHRPortal.Controllers.SpecialisationController",
     "Method": "AddSpecialisation",
     "RelativePath": "api/Specialisation/AddSpecialisation",
